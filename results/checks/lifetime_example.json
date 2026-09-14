@@ -1,0 +1,22 @@
+{
+ "purpose": "round-7 20.P2.1 valid -> diagnostic-only transition example",
+ "lifetimes": [
+  {
+   "lifetime_id": "anchored:f2530406",
+   "status": "CERTIFIED",
+   "scope": "G1/G2/G3 on scores exchangeable with the frozen warm pool, anchored controller",
+   "source": "results/exp1_validity.json"
+  },
+  {
+   "lifetime_id": "legacy-csr:f92ea9e2",
+   "status": "DIAGNOSTIC ONLY",
+   "why": "the score population is a legacy stream, not the anchored closed-loop one; a changed score/selection contract starts a new confidence lifetime, so the certified event does not carry over",
+   "not_claimed": [
+    "a certified shift budget",
+    "anchored-controller performance"
+   ],
+   "source": "results/closedloop_shift/protocol.json"
+  }
+ ],
+ "rule": "A change to base-pool bytes, predictor bytes, score/selection contract, or deployment epoch starts a new confidence lifetime. Appending scores inside one unchanged epoch does not. Anything reported under a new lifetime without recalibration is diagnostic, never certified."
+}

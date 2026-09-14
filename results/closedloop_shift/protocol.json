@@ -1,0 +1,31 @@
+{
+ "protocol": {
+  "status": "locked_before_any_outcome_of_this_analysis",
+  "item": "round-4 20.P1.1 -- test the shift-robust score process on the closed-loop distribution",
+  "inputs": "frozen results/window_anchor_v1_study attempt records only; no re-simulation",
+  "unit": "one attempt (the locked spec resets confidence state per attempt)",
+  "stream": "the attempt's own window_audit scores, in window order",
+  "warm_pool": "results/data/cal_<regime>.npy, exactly as the deployed calibrator used",
+  "beta": 0.9,
+  "delta": 0.1,
+  "rho_grid": [
+   0.0,
+   0.005,
+   0.01,
+   0.02,
+   0.05,
+   0.1,
+   0.2,
+   0.5,
+   1.0,
+   2.0,
+   5.0
+  ],
+  "endpoint_1": "fraction of attempts whose deployed radius already dominates every closed-loop score it met (rho_tot = 0 suffices)",
+  "endpoint_2": "the smallest rho_tot on the grid that restores domination for each attempt that needs one, and the implied effective delta delta*exp(-rho_tot/beta)",
+  "endpoint_3": "the same, split by regime and by injected tracking bound",
+  "retention": "every attempt retained, including those needing no budget and those the grid cannot fix",
+  "not_claimed": "this prices an OBSERVED shift on one simulated study; it does not establish a shift budget that transfers to deployment, and rho_tot chosen after seeing the stream is a diagnostic, not a certificate"
+ },
+ "protocol_sha256": "a86075b88d94c7d4cbd87532494d9bb79b5e814323dfb6a1a6fb344155c4fcd1"
+}

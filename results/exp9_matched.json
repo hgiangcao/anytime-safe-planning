@@ -1,0 +1,289 @@
+{
+ "artifact_schema_version": 2,
+ "allocation_method": "Lagrangian/grid heuristic, not a certified global optimum for nonconvex empirical-quantile steps",
+ "rank_wall_status": "analytic feasibility result independent of the allocation heuristic",
+ "planning_execution_contract": "legacy_fresh_prediction_recentered_v0",
+ "prop1_test": {
+  "method_note": "The wall is an analytic rank-feasibility check. Radius allocations use a Lagrangian/grid heuristic and are not certified global optima.",
+  "homogeneous_wall": [
+   {
+    "pool": "sf",
+    "n": 2094,
+    "delta": 0.05,
+    "predicted_max_T": 104,
+    "heuristic_feasible_max_T": 104,
+    "match": true
+   },
+   {
+    "pool": "sf",
+    "n": 2094,
+    "delta": 0.1,
+    "predicted_max_T": 209,
+    "heuristic_feasible_max_T": 209,
+    "match": true
+   },
+   {
+    "pool": "orca",
+    "n": 2094,
+    "delta": 0.05,
+    "predicted_max_T": 104,
+    "heuristic_feasible_max_T": 104,
+    "match": true
+   },
+   {
+    "pool": "orca",
+    "n": 2094,
+    "delta": 0.1,
+    "predicted_max_T": 209,
+    "heuristic_feasible_max_T": 209,
+    "match": true
+   },
+   {
+    "pool": "real_univ",
+    "n": 728,
+    "delta": 0.05,
+    "predicted_max_T": 36,
+    "heuristic_feasible_max_T": 36,
+    "match": true
+   },
+   {
+    "pool": "real_univ",
+    "n": 728,
+    "delta": 0.1,
+    "predicted_max_T": 72,
+    "heuristic_feasible_max_T": 72,
+    "match": true
+   }
+  ],
+  "heterogeneous_control": [
+   {
+    "T": 20,
+    "feasible": true,
+    "radius_gain_pct": 28.89800457093835
+   },
+   {
+    "T": 60,
+    "feasible": true,
+    "radius_gain_pct": 70.36697224610592
+   },
+   {
+    "T": 104,
+    "feasible": true,
+    "radius_gain_pct": 0.0
+   },
+   {
+    "T": 105,
+    "feasible": false,
+    "radius_gain_pct": null
+   }
+  ]
+ },
+ "lookahead_wall": [
+  {
+   "pool": "sf",
+   "n": 2094,
+   "delta": 0.05,
+   "H": 8,
+   "wall_scalar": 104,
+   "wall_per_lookahead": 13
+  },
+  {
+   "pool": "sf",
+   "n": 2094,
+   "delta": 0.1,
+   "H": 8,
+   "wall_scalar": 209,
+   "wall_per_lookahead": 26
+  },
+  {
+   "pool": "orca",
+   "n": 2094,
+   "delta": 0.05,
+   "H": 8,
+   "wall_scalar": 104,
+   "wall_per_lookahead": 13
+  },
+  {
+   "pool": "orca",
+   "n": 2094,
+   "delta": 0.1,
+   "H": 8,
+   "wall_scalar": 209,
+   "wall_per_lookahead": 26
+  }
+ ],
+ "matched_pool_n": 2597,
+ "matched_wall": 129,
+ "matched": {
+  "cs": {
+   "n_episodes": 30,
+   "total_windows": 3599,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.03278688524590164,
+   "window_viol_ci": [
+    0.027448827384313628,
+    0.039121293267118835
+   ],
+   "window_viol_rate_all": 0.03278688524590164,
+   "episode_viol_rate": 0.9333333333333333,
+   "episode_viol_ci": [
+    0.7867618227892791,
+    0.9815233646723066
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.43333333333333335,
+   "collision_ci": [
+    0.27377237430615114,
+    0.6080299045459127
+   ],
+   "coll_step_frac": 0.0020379965457685664,
+   "success_rate": 0.0,
+   "success_ci": [
+    -1.2302421700937121e-17,
+    0.11351709139047801
+   ],
+   "timeout_rate": 1.0,
+   "mean_task_time_s": null,
+   "fallback_step_frac": 0.05848013816925734,
+   "mean_min_dist": 0.6531648883004019,
+   "mean_goals": 17.833333333333332,
+   "mean_radius": 1.7107758558108719
+  },
+  "union": {
+   "n_episodes": 30,
+   "total_windows": 3599,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.0005557099194220616,
+   "window_viol_ci": [
+    0.00015240574383443409,
+    0.0020240984910450564
+   ],
+   "window_viol_rate_all": 0.0005557099194220616,
+   "episode_viol_rate": 0.06666666666666667,
+   "episode_viol_ci": [
+    0.01847663532769335,
+    0.2132381772107209
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.7666666666666667,
+   "collision_ci": [
+    0.5907132766967573,
+    0.8820776078949878
+   ],
+   "coll_step_frac": 0.0036614853195164076,
+   "success_rate": 0.0,
+   "success_ci": [
+    -1.2302421700937121e-17,
+    0.11351709139047801
+   ],
+   "timeout_rate": 1.0,
+   "mean_task_time_s": null,
+   "fallback_step_frac": 0.31630397236614854,
+   "mean_min_dist": 0.4578099495042452,
+   "mean_goals": 7.033333333333333,
+   "mean_radius": 2.7463109613706482
+  },
+  "aucb": {
+   "n_episodes": 30,
+   "total_windows": 3599,
+   "cert_window_frac": 0.4667963323145318,
+   "window_viol_rate": 0.0011904761904761906,
+   "window_viol_ci": [
+    0.0003265254055081668,
+    0.004330444703794275
+   ],
+   "window_viol_rate_all": 0.0005557099194220616,
+   "episode_viol_rate": 0.06666666666666667,
+   "episode_viol_ci": [
+    0.01847663532769335,
+    0.2132381772107209
+   ],
+   "uncert_window_frac": 0.5332036676854682,
+   "collision_rate": 0.8,
+   "collision_ci": [
+    0.6269395261897257,
+    0.9049502189759876
+   ],
+   "coll_step_frac": 0.0031778929188255615,
+   "success_rate": 0.0,
+   "success_ci": [
+    -1.2302421700937121e-17,
+    0.11351709139047801
+   ],
+   "timeout_rate": 1.0,
+   "mean_task_time_s": null,
+   "fallback_step_frac": 0.6701899827288428,
+   "mean_min_dist": 0.4222970934841472,
+   "mean_goals": 4.666666666666667,
+   "mean_radius": 2.663289275570915
+  },
+  "aci_ep": {
+   "n_episodes": 30,
+   "total_windows": 3599,
+   "cert_window_frac": 0.9588774659627675,
+   "window_viol_rate": 0.0005795421616922632,
+   "window_viol_ci": [
+    0.00015894242667125724,
+    0.002110799838791796
+   ],
+   "window_viol_rate_all": 0.0005557099194220616,
+   "episode_viol_rate": 0.06666666666666667,
+   "episode_viol_ci": [
+    0.01847663532769335,
+    0.2132381772107209
+   ],
+   "uncert_window_frac": 0.041122534037232567,
+   "collision_rate": 0.7666666666666667,
+   "collision_ci": [
+    0.5907132766967573,
+    0.8820776078949878
+   ],
+   "coll_step_frac": 0.0035578583765112264,
+   "success_rate": 0.0,
+   "success_ci": [
+    -1.2302421700937121e-17,
+    0.11351709139047801
+   ],
+   "timeout_rate": 1.0,
+   "mean_task_time_s": null,
+   "fallback_step_frac": 0.3424525043177893,
+   "mean_min_dist": 0.4683852391652625,
+   "mean_goals": 6.966666666666667,
+   "mean_radius": 2.7463109613706482
+  },
+  "uncal": {
+   "n_episodes": 30,
+   "total_windows": 3599,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 1.0,
+   "window_viol_ci": [
+    0.9989337305309229,
+    0.9999999999999998
+   ],
+   "window_viol_rate_all": 1.0,
+   "episode_viol_rate": 1.0,
+   "episode_viol_ci": [
+    0.886482908609522,
+    1.0
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 1.0,
+   "collision_ci": [
+    0.886482908609522,
+    1.0
+   ],
+   "coll_step_frac": 0.01927461139896373,
+   "success_rate": 0.0,
+   "success_ci": [
+    -1.2302421700937121e-17,
+    0.11351709139047801
+   ],
+   "timeout_rate": 1.0,
+   "mean_task_time_s": null,
+   "fallback_step_frac": 0.0014162348877374785,
+   "mean_min_dist": 0.5085072079971231,
+   "mean_goals": 34.06666666666667,
+   "mean_radius": 0.0
+  }
+ }
+}

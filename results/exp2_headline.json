@@ -1,0 +1,28 @@
+{
+ "delta_0.05": {
+  "union_uncertifiable_beyond_T": 105,
+  "union_radius_T50": 2.385636299510587,
+  "cs_radius_final_t~2100": 1.7212391662908317,
+  "split_quantile_1-delta": 1.6158311492991833,
+  "cs_over_plugin_pct": 6.5234549437523714,
+  "cert_horizon_union_any_allocation": 104,
+  "cert_horizon_auc_wsq": 9,
+  "cert_horizon_aucb_lam0.05": 52,
+  "cert_horizon_aucb_lam0.01": 107,
+  "cert_horizon_optimal": 107,
+  "cert_horizon_cs": "unbounded"
+ },
+ "delta_0.1": {
+  "union_uncertifiable_beyond_T": 210,
+  "union_radius_T50": 2.3523383296305624,
+  "cs_radius_final_t~2100": 1.4186344892916192,
+  "split_quantile_1-delta": 1.3418214429884598,
+  "cs_over_plugin_pct": 5.72453560826125,
+  "cert_horizon_union_any_allocation": 209,
+  "cert_horizon_auc_wsq": 14,
+  "cert_horizon_aucb_lam0.05": 66,
+  "cert_horizon_aucb_lam0.01": 179,
+  "cert_horizon_optimal": 220,
+  "cert_horizon_cs": "unbounded"
+ }
+}
