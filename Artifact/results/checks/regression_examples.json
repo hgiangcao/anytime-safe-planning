@@ -1,0 +1,140 @@
+{
+ "purpose": "round-8 20.P2.1 independently runnable anchor/identity/tracking/rank-cutoff regressions",
+ "how_to_run_one": "python code/make_regression_examples.py --example <name>",
+ "examples": [
+  {
+   "name": "anchor_suffix",
+   "runs_standalone": true,
+   "checks": "constraint_predictions[t] equals the remaining suffix of the window-start prediction, for every active control of one attempt",
+   "scope": "one stored attempt; the 23-gate validator runs the same test on all 320. Controls under the current-observation identity policy are counted separately and carry no score-based implication.",
+   "source": "results/window_anchor_v1_study/attempts/orca__cs__track-0.00m__seed-00.json",
+   "expected": {
+    "all_anchored_controls_match_suffix": true,
+    "recentered_controls": 0
+   },
+   "observed": {
+    "anchored_controls": 37,
+    "suffix_matches": true,
+    "recentered_controls": 0,
+    "identity_policy_controls_exempt": 27
+   },
+   "pass": true
+  },
+  {
+   "name": "identity_exclusion",
+   "runs_standalone": true,
+   "checks": "no UID excluded at the anchor is also carried in that window's score-selected set, so no certificate is reused across identities",
+   "scope": "one stored attempt; the speed envelope itself is a simulator policy, not a statistical or continuous-time guarantee",
+   "source": "results/window_anchor_v1_study/attempts/orca__cs__track-0.00m__seed-00.json",
+   "expected": {
+    "identity_windows_present": true,
+    "excluded_uids_in_selected_set": 0
+   },
+   "observed": {
+    "windows_with_identity_events": 4,
+    "excluded_uids_in_selected_set": 0,
+    "contract": {
+     "agent_speed_bound_mps": 2.52,
+     "scope": "simulator_policy_not_statistical_or_continuous_time_theorem",
+     "transition_step_status": "observation_only_fallback_begins_next_control",
+     "uid_format": "slot:generation"
+    }
+   },
+   "pass": true
+  },
+  {
+   "name": "tracking_bound",
+   "runs_standalone": true,
+   "checks": "a deterministic acceleration perturbation of magnitude m_tr/dt^2, projected onto ||a||<=2, moves the one-step endpoint by at most m_tr",
+   "scope": "robot-side endpoint bound at discrete control times; supplied separately from pedestrian containment and not a swept-volume bound",
+   "expected": {
+    "tracking_margin_m": 0.1,
+    "max_endpoint_error_m_at_most": 0.1,
+    "trials": 200
+   },
+   "observed": {
+    "trials": 200,
+    "max_endpoint_error_m": 0.10000000000000002
+   },
+   "pass": true
+  },
+  {
+   "name": "rank_cutoff",
+   "runs_standalone": true,
+   "checks": "the four certifiable horizons quoted for n=2094, delta=0.05 inside the empirical-rank per-window-allocation family",
+   "scope": "family-specific: split-CP empirical order statistics combined by sum_w eps_w <= delta. Not a limit on conformal prediction generally.",
+   "expected": {
+    "fixed_pool_known_T": 104,
+    "optimal_horizon_free": 107,
+    "auc": 9,
+    "aucb_lambda_0.05": 52
+   },
+   "observed": {
+    "fixed_pool_known_T": 104,
+    "optimal_horizon_free": 107,
+    "auc": 9,
+    "aucb_lambda_0.05": 52
+   },
+   "pass": true
+  }
+ ],
+ "exported_status_contract": {
+  "certified": {
+   "assumes": "i.i.d. windows for the conditional G1/G2 reading; for G3, exchangeability with the pool and a level allocation that does not depend on score values",
+   "error_allocation": "delta for G1 and G3; delta+delta' in total for the G2 count event (the count boundary's own delta' is only one component)",
+   "evidence": "statistical+geometric",
+   "lifetime": "the current base-pool bytes, predictor bytes, score/selection contract and deployment epoch"
+  },
+  "anchored_feasible_premise_unsupported": {
+   "assumes": "nothing statistical",
+   "error_allocation": "none spent; the radius is empirical, not certified",
+   "evidence": "geometric",
+   "lifetime": "withdrawn certificate; the radius is a monitoring diagnostic"
+  },
+  "fallback_no_certificate": {
+   "assumes": "nothing statistical",
+   "error_allocation": "none; the radius is +inf, so no finite region exists",
+   "evidence": "none",
+   "lifetime": "n/a"
+  },
+  "fallback_no_feasible_action": {
+   "assumes": "nothing statistical",
+   "error_allocation": "none",
+   "evidence": "none",
+   "lifetime": "n/a"
+  },
+  "identity_speed_envelope_feasible_uncertified": {
+   "assumes": "nothing statistical",
+   "error_allocation": "none; an explicit simulator policy, not a theorem",
+   "evidence": "geometric",
+   "lifetime": "n/a"
+  },
+  "fallback_identity_current_observation_evasive": {
+   "assumes": "nothing statistical",
+   "error_allocation": "none",
+   "evidence": "none",
+   "lifetime": "n/a"
+  },
+  "fallback_no_active_window": {
+   "assumes": "nothing statistical",
+   "error_allocation": "none",
+   "evidence": "none",
+   "lifetime": "n/a"
+  }
+ },
+ "exported_status_self_check": {
+  "n_statuses": 7,
+  "statuses_invoking_a_statistical_claim": [
+   "certified"
+  ],
+  "statuses_with_deterministic_feasibility_only": [
+   "anchored_feasible_premise_unsupported",
+   "identity_speed_envelope_feasible_uncertified"
+  ],
+  "certified_downgrades_to": "anchored_feasible_premise_unsupported",
+  "certified_is_unique_statistical_status": true,
+  "premise_unsupported_is_not_certified": true,
+  "geometric_statuses_unchanged_by_premise": true
+ },
+ "note": "These are proof-of-implementation regressions, not a deployment safety argument: they check the executable semantics of the anchor, identity, tracking and rank contracts, and say nothing about collision rates."
+}

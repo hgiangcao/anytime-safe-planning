@@ -1,0 +1,611 @@
+{
+ "generated_utc": "2026-09-08T10:10:21.533710Z",
+ "source_execution_contract": "legacy_fresh_prediction_recentered_v0",
+ "estimand": "episode-clustered marginal frequency of s<q_beta, scaled to 120 windows; this is not the theorem's pathwise sum of conditional probabilities",
+ "formal_conditional_shift_budget_certified": false,
+ "uncertainty": {
+  "cluster_bootstrap": {
+   "unit": "episode",
+   "replicates": 10000,
+   "seed_rule": "crc32('rho|regime|delta')",
+   "interval": "percentile 95%"
+  },
+  "transfer_interval": "95% Hoeffding interval over bounded episode means; conservative and non-degenerate when all observed windows are below q_beta"
+ },
+ "estimates": [
+  {
+   "regime": "replay",
+   "delta": 0.05,
+   "beta": 0.95,
+   "reference_quantile": 1.6158311492991833,
+   "n_episode_clusters": 200,
+   "n_windows": 1087,
+   "p_hat_marginal": 0.9356025758969642,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.9196504600748596,
+    0.9508929625320383
+   ],
+   "p_hat_episode_mean": 0.9393690476190476,
+   "p_hat_episode_hoeffding_ci95": [
+    0.8433367684870555,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 0.0,
+   "rho_cluster_bootstrap_ci95": [
+    0.0,
+    0.10715550384459593
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "sf",
+   "delta": 0.05,
+   "beta": 0.95,
+   "reference_quantile": 1.6158311492991833,
+   "n_episode_clusters": 200,
+   "n_windows": 1026,
+   "p_hat_marginal": 0.9590643274853801,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.9457889641819942,
+    0.9714003944773175
+   ],
+   "p_hat_episode_mean": 0.9645178571428571,
+   "p_hat_episode_hoeffding_ci95": [
+    0.868485578010865,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 1.087719298245613,
+   "rho_cluster_bootstrap_ci95": [
+    0.0,
+    2.5680473372781076
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "orca",
+   "delta": 0.05,
+   "beta": 0.95,
+   "reference_quantile": 1.8891372370450379,
+   "n_episode_clusters": 200,
+   "n_windows": 1180,
+   "p_hat_marginal": 0.9364406779661016,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.9211817550027595,
+    0.9510729613733906
+   ],
+   "p_hat_episode_mean": 0.9368035714285713,
+   "p_hat_episode_hoeffding_ci95": [
+    0.8407712922965792,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 0.0,
+   "rho_cluster_bootstrap_ci95": [
+    0.0,
+    0.12875536480687622
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "real_eth",
+   "delta": 0.05,
+   "beta": 0.95,
+   "reference_quantile": 1.4683487156159862,
+   "n_episode_clusters": 20,
+   "n_windows": 75,
+   "p_hat_marginal": 0.84,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.7671232876712328,
+    0.9090909090909091
+   ],
+   "p_hat_episode_mean": 0.8670238095238096,
+   "p_hat_episode_hoeffding_ci95": [
+    0.563343078569657,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 0.0,
+   "rho_cluster_bootstrap_ci95": [
+    0.0,
+    0.0
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "real_hotel",
+   "delta": 0.05,
+   "beta": 0.95,
+   "reference_quantile": 1.7005278326710926,
+   "n_episode_clusters": 27,
+   "n_windows": 96,
+   "p_hat_marginal": 1.0,
+   "p_hat_cluster_bootstrap_ci95": [
+    1.0,
+    1.0
+   ],
+   "p_hat_episode_mean": 1.0,
+   "p_hat_episode_hoeffding_ci95": [
+    0.7386332414334382,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 6.000000000000005,
+   "rho_cluster_bootstrap_ci95": [
+    6.000000000000005,
+    6.000000000000005
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "real_univ",
+   "delta": 0.05,
+   "beta": 0.95,
+   "reference_quantile": 1.4700352666406329,
+   "n_episode_clusters": 12,
+   "n_windows": 83,
+   "p_hat_marginal": 0.7590361445783133,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.6125,
+    0.8928571428571429
+   ],
+   "p_hat_episode_mean": 0.7708333333333334,
+   "p_hat_episode_hoeffding_ci95": [
+    0.37878319548349065,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 0.0,
+   "rho_cluster_bootstrap_ci95": [
+    0.0,
+    0.0
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "real_zara1",
+   "delta": 0.05,
+   "beta": 0.95,
+   "reference_quantile": 1.6932889949568855,
+   "n_episode_clusters": 20,
+   "n_windows": 59,
+   "p_hat_marginal": 1.0,
+   "p_hat_cluster_bootstrap_ci95": [
+    1.0,
+    1.0
+   ],
+   "p_hat_episode_mean": 1.0,
+   "p_hat_episode_hoeffding_ci95": [
+    0.6963192690458474,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 6.000000000000005,
+   "rho_cluster_bootstrap_ci95": [
+    6.000000000000005,
+    6.000000000000005
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "real_zara2",
+   "delta": 0.05,
+   "beta": 0.95,
+   "reference_quantile": 1.6741604689488856,
+   "n_episode_clusters": 24,
+   "n_windows": 92,
+   "p_hat_marginal": 1.0,
+   "p_hat_cluster_bootstrap_ci95": [
+    1.0,
+    1.0
+   ],
+   "p_hat_episode_mean": 1.0,
+   "p_hat_episode_hoeffding_ci95": [
+    0.7227786889612555,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 6.000000000000005,
+   "rho_cluster_bootstrap_ci95": [
+    6.000000000000005,
+    6.000000000000005
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "replay",
+   "delta": 0.1,
+   "beta": 0.9,
+   "reference_quantile": 1.3418214429884598,
+   "n_episode_clusters": 200,
+   "n_windows": 920,
+   "p_hat_marginal": 0.8880434782608696,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.8665942992908767,
+    0.9081086789006536
+   ],
+   "p_hat_episode_mean": 0.8949345238095239,
+   "p_hat_episode_hoeffding_ci95": [
+    0.7989022446775318,
+    0.990966802941516
+   ],
+   "rho_hat_over_120_windows": 0.0,
+   "rho_cluster_bootstrap_ci95": [
+    0.0,
+    0.9730414680784305
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    10.916016352981913
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "sf",
+   "delta": 0.1,
+   "beta": 0.9,
+   "reference_quantile": 1.3418214429884598,
+   "n_episode_clusters": 200,
+   "n_windows": 933,
+   "p_hat_marginal": 0.9131832797427653,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.8955223880597015,
+    0.9302593303288069
+   ],
+   "p_hat_episode_mean": 0.9246845238095238,
+   "p_hat_episode_hoeffding_ci95": [
+    0.8286522446775317,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 1.5819935691318276,
+   "rho_cluster_bootstrap_ci95": [
+    0.0,
+    3.631119639456828
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    11.999999999999996
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "orca",
+   "delta": 0.1,
+   "beta": 0.9,
+   "reference_quantile": 1.4365649749971712,
+   "n_episode_clusters": 200,
+   "n_windows": 1010,
+   "p_hat_marginal": 0.8673267326732673,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.841996719985895,
+    0.8910388887790367
+   ],
+   "p_hat_episode_mean": 0.8748690476190475,
+   "p_hat_episode_hoeffding_ci95": [
+    0.7788367684870554,
+    0.9709013267510396
+   ],
+   "rho_hat_over_120_windows": 0.0,
+   "rho_cluster_bootstrap_ci95": [
+    0.0,
+    0.0
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    8.508159210124745
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "real_eth",
+   "delta": 0.1,
+   "beta": 0.9,
+   "reference_quantile": 1.1638388271294846,
+   "n_episode_clusters": 20,
+   "n_windows": 60,
+   "p_hat_marginal": 0.7333333333333333,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.625,
+    0.8392857142857143
+   ],
+   "p_hat_episode_mean": 0.7408333333333332,
+   "p_hat_episode_hoeffding_ci95": [
+    0.43715260237918063,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 0.0,
+   "rho_cluster_bootstrap_ci95": [
+    0.0,
+    0.0
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    11.999999999999996
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "real_hotel",
+   "delta": 0.1,
+   "beta": 0.9,
+   "reference_quantile": 1.4368683026190145,
+   "n_episode_clusters": 27,
+   "n_windows": 82,
+   "p_hat_marginal": 0.9634146341463414,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.9012345679012346,
+    1.0
+   ],
+   "p_hat_episode_mean": 0.9660493827160493,
+   "p_hat_episode_hoeffding_ci95": [
+    0.7046826241494875,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 7.609756097560969,
+   "rho_cluster_bootstrap_ci95": [
+    0.14814814814814614,
+    11.999999999999996
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    11.999999999999996
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "real_univ",
+   "delta": 0.1,
+   "beta": 0.9,
+   "reference_quantile": 1.1062457396930223,
+   "n_episode_clusters": 12,
+   "n_windows": 79,
+   "p_hat_marginal": 0.5189873417721519,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.3670886075949367,
+    0.676056338028169
+   ],
+   "p_hat_episode_mean": 0.5600198412698413,
+   "p_hat_episode_hoeffding_ci95": [
+    0.16796970341999856,
+    0.952069979119684
+   ],
+   "rho_hat_over_120_windows": 0.0,
+   "rho_cluster_bootstrap_ci95": [
+    0.0,
+    0.0
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    6.2483974943620835
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "real_zara1",
+   "delta": 0.1,
+   "beta": 0.9,
+   "reference_quantile": 1.4098933759680627,
+   "n_episode_clusters": 20,
+   "n_windows": 55,
+   "p_hat_marginal": 1.0,
+   "p_hat_cluster_bootstrap_ci95": [
+    1.0,
+    1.0
+   ],
+   "p_hat_episode_mean": 1.0,
+   "p_hat_episode_hoeffding_ci95": [
+    0.6963192690458474,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 11.999999999999996,
+   "rho_cluster_bootstrap_ci95": [
+    11.999999999999996,
+    11.999999999999996
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    11.999999999999996
+   ],
+   "formal_conditional_shift_budget": false
+  },
+  {
+   "regime": "real_zara2",
+   "delta": 0.1,
+   "beta": 0.9,
+   "reference_quantile": 1.3803843325637588,
+   "n_episode_clusters": 24,
+   "n_windows": 73,
+   "p_hat_marginal": 0.9726027397260274,
+   "p_hat_cluster_bootstrap_ci95": [
+    0.9305555555555556,
+    1.0
+   ],
+   "p_hat_episode_mean": 0.9722222222222222,
+   "p_hat_episode_hoeffding_ci95": [
+    0.6950009111834776,
+    1.0
+   ],
+   "rho_hat_over_120_windows": 8.712328767123285,
+   "rho_cluster_bootstrap_ci95": [
+    3.666666666666667,
+    11.999999999999996
+   ],
+   "rho_episode_hoeffding_ci95": [
+    0.0,
+    11.999999999999996
+   ],
+   "formal_conditional_shift_budget": false
+  }
+ ],
+ "folds": [
+  {
+   "delta": 0.05,
+   "held_out": "real_eth",
+   "rho_from_other_regimes_point": 6.000000000000005,
+   "rho_from_other_regimes_episode_hoeffding_hi95": 6.000000000000005,
+   "rho_needed_by_held_out_point": 0.0,
+   "rho_needed_by_held_out_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "point_transfer_covered": true,
+   "source_hi95_covers_held_point": true,
+   "source_hi95_covers_held_hi95": true
+  },
+  {
+   "delta": 0.05,
+   "held_out": "real_hotel",
+   "rho_from_other_regimes_point": 6.000000000000005,
+   "rho_from_other_regimes_episode_hoeffding_hi95": 6.000000000000005,
+   "rho_needed_by_held_out_point": 6.000000000000005,
+   "rho_needed_by_held_out_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "point_transfer_covered": true,
+   "source_hi95_covers_held_point": true,
+   "source_hi95_covers_held_hi95": true
+  },
+  {
+   "delta": 0.05,
+   "held_out": "real_univ",
+   "rho_from_other_regimes_point": 6.000000000000005,
+   "rho_from_other_regimes_episode_hoeffding_hi95": 6.000000000000005,
+   "rho_needed_by_held_out_point": 0.0,
+   "rho_needed_by_held_out_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "point_transfer_covered": true,
+   "source_hi95_covers_held_point": true,
+   "source_hi95_covers_held_hi95": true
+  },
+  {
+   "delta": 0.05,
+   "held_out": "real_zara1",
+   "rho_from_other_regimes_point": 6.000000000000005,
+   "rho_from_other_regimes_episode_hoeffding_hi95": 6.000000000000005,
+   "rho_needed_by_held_out_point": 6.000000000000005,
+   "rho_needed_by_held_out_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "point_transfer_covered": true,
+   "source_hi95_covers_held_point": true,
+   "source_hi95_covers_held_hi95": true
+  },
+  {
+   "delta": 0.05,
+   "held_out": "real_zara2",
+   "rho_from_other_regimes_point": 6.000000000000005,
+   "rho_from_other_regimes_episode_hoeffding_hi95": 6.000000000000005,
+   "rho_needed_by_held_out_point": 6.000000000000005,
+   "rho_needed_by_held_out_episode_hoeffding_ci95": [
+    0.0,
+    6.000000000000005
+   ],
+   "point_transfer_covered": true,
+   "source_hi95_covers_held_point": true,
+   "source_hi95_covers_held_hi95": true
+  },
+  {
+   "delta": 0.1,
+   "held_out": "real_eth",
+   "rho_from_other_regimes_point": 11.999999999999996,
+   "rho_from_other_regimes_episode_hoeffding_hi95": 11.999999999999996,
+   "rho_needed_by_held_out_point": 0.0,
+   "rho_needed_by_held_out_episode_hoeffding_ci95": [
+    0.0,
+    11.999999999999996
+   ],
+   "point_transfer_covered": true,
+   "source_hi95_covers_held_point": true,
+   "source_hi95_covers_held_hi95": true
+  },
+  {
+   "delta": 0.1,
+   "held_out": "real_hotel",
+   "rho_from_other_regimes_point": 11.999999999999996,
+   "rho_from_other_regimes_episode_hoeffding_hi95": 11.999999999999996,
+   "rho_needed_by_held_out_point": 7.609756097560969,
+   "rho_needed_by_held_out_episode_hoeffding_ci95": [
+    0.0,
+    11.999999999999996
+   ],
+   "point_transfer_covered": true,
+   "source_hi95_covers_held_point": true,
+   "source_hi95_covers_held_hi95": true
+  },
+  {
+   "delta": 0.1,
+   "held_out": "real_univ",
+   "rho_from_other_regimes_point": 11.999999999999996,
+   "rho_from_other_regimes_episode_hoeffding_hi95": 11.999999999999996,
+   "rho_needed_by_held_out_point": 0.0,
+   "rho_needed_by_held_out_episode_hoeffding_ci95": [
+    0.0,
+    6.2483974943620835
+   ],
+   "point_transfer_covered": true,
+   "source_hi95_covers_held_point": true,
+   "source_hi95_covers_held_hi95": true
+  },
+  {
+   "delta": 0.1,
+   "held_out": "real_zara1",
+   "rho_from_other_regimes_point": 8.712328767123285,
+   "rho_from_other_regimes_episode_hoeffding_hi95": 11.999999999999996,
+   "rho_needed_by_held_out_point": 11.999999999999996,
+   "rho_needed_by_held_out_episode_hoeffding_ci95": [
+    0.0,
+    11.999999999999996
+   ],
+   "point_transfer_covered": false,
+   "source_hi95_covers_held_point": true,
+   "source_hi95_covers_held_hi95": true
+  },
+  {
+   "delta": 0.1,
+   "held_out": "real_zara2",
+   "rho_from_other_regimes_point": 11.999999999999996,
+   "rho_from_other_regimes_episode_hoeffding_hi95": 11.999999999999996,
+   "rho_needed_by_held_out_point": 8.712328767123285,
+   "rho_needed_by_held_out_episode_hoeffding_ci95": [
+    0.0,
+    11.999999999999996
+   ],
+   "point_transfer_covered": true,
+   "source_hi95_covers_held_point": true,
+   "source_hi95_covers_held_hi95": true
+  }
+ ],
+ "point_transfers_covered": 9,
+ "source_hi95_covers_held_point": 10,
+ "source_hi95_covers_held_hi95": 10,
+ "n_total": 10
+}

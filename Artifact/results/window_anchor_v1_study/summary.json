@@ -1,0 +1,396 @@
+{
+  "artifact_schema_version": 1,
+  "cells": {
+    "orca|cs|track=0.00m": {
+      "active_window_fallback_fraction": 0.575390625,
+      "all_agents_in_score_event_window_fraction": 0.4625,
+      "endpoint_implication_active_control_fraction": 0.276953125,
+      "episode_containment_violation_fraction": 0.7,
+      "episode_containment_violation_wilson95": [
+        0.545696893456796,
+        0.8192532908430471
+      ],
+      "fallback_reason_counts": {
+        "fallback_identity_current_observation_evasive": 477,
+        "fallback_no_active_window": 200,
+        "fallback_no_feasible_action": 317,
+        "identity_speed_envelope_feasible_uncertified": 679
+      },
+      "finite_radius_containment_violation_fraction": 0.178125,
+      "finite_radius_window_fraction": 1.0,
+      "identity_event_episode_fraction": 1.0,
+      "identity_event_episode_wilson95": [
+        0.9123754607496077,
+        1.0
+      ],
+      "identity_policy_window_fraction": 0.5375,
+      "mean_path_length_m": 21.53178193271893,
+      "mean_signed_waypoint_progress_m": 9.48849303530148,
+      "mean_waypoint_completions": 0.875,
+      "n_attempted_windows": 320,
+      "n_episodes": 40,
+      "n_scored_windows": 320,
+      "observed_collision_control_fraction": 0.002536231884057971,
+      "observed_collision_episode_fraction": 0.075,
+      "observed_collision_episode_wilson95": [
+        0.025835556771858226,
+        0.19864530159097524
+      ],
+      "path_length_episode_bootstrap_ci95": [
+        20.851277569268124,
+        22.238300084797405
+      ],
+      "selected_agent_fraction_over_attempted_window_agents": 0.7974397590361446,
+      "tracking_bound_violation_count": 0,
+      "tracking_error_max_m": 0.0
+    },
+    "orca|cs|track=0.10m": {
+      "active_window_fallback_fraction": 0.662109375,
+      "all_agents_in_score_event_window_fraction": 0.46875,
+      "endpoint_implication_active_control_fraction": 0.23984375,
+      "episode_containment_violation_fraction": 0.675,
+      "episode_containment_violation_wilson95": [
+        0.52017458088898,
+        0.7991568303733828
+      ],
+      "fallback_reason_counts": {
+        "fallback_identity_current_observation_evasive": 642,
+        "fallback_no_active_window": 200,
+        "fallback_no_feasible_action": 549,
+        "identity_speed_envelope_feasible_uncertified": 504
+      },
+      "finite_radius_containment_violation_fraction": 0.14375,
+      "finite_radius_window_fraction": 1.0,
+      "identity_event_episode_fraction": 1.0,
+      "identity_event_episode_wilson95": [
+        0.9123754607496077,
+        1.0
+      ],
+      "identity_policy_window_fraction": 0.53125,
+      "mean_path_length_m": 21.010113859342546,
+      "mean_signed_waypoint_progress_m": 3.788335661315867,
+      "mean_waypoint_completions": 0.4,
+      "n_attempted_windows": 320,
+      "n_episodes": 40,
+      "n_scored_windows": 320,
+      "observed_collision_control_fraction": 0.0018115942028985507,
+      "observed_collision_episode_fraction": 0.05,
+      "observed_collision_episode_wilson95": [
+        0.013820377146101098,
+        0.165041708179252
+      ],
+      "path_length_episode_bootstrap_ci95": [
+        20.202247389907317,
+        21.796861813104478
+      ],
+      "selected_agent_fraction_over_attempted_window_agents": 0.8008283132530121,
+      "tracking_bound_violation_count": 0,
+      "tracking_error_max_m": 0.10000000000000071
+    },
+    "orca|spending_cs|track=0.00m": {
+      "active_window_fallback_fraction": 0.566796875,
+      "all_agents_in_score_event_window_fraction": 0.46875,
+      "endpoint_implication_active_control_fraction": 0.275390625,
+      "episode_containment_violation_fraction": 0.725,
+      "episode_containment_violation_wilson95": [
+        0.5716474916687543,
+        0.8389214656685692
+      ],
+      "fallback_reason_counts": {
+        "fallback_identity_current_observation_evasive": 474,
+        "fallback_no_active_window": 200,
+        "fallback_no_feasible_action": 301,
+        "identity_speed_envelope_feasible_uncertified": 676
+      },
+      "finite_radius_containment_violation_fraction": 0.15625,
+      "finite_radius_window_fraction": 1.0,
+      "identity_event_episode_fraction": 1.0,
+      "identity_event_episode_wilson95": [
+        0.9123754607496077,
+        1.0
+      ],
+      "identity_policy_window_fraction": 0.53125,
+      "mean_path_length_m": 22.066810164134637,
+      "mean_signed_waypoint_progress_m": 9.431184986869964,
+      "mean_waypoint_completions": 0.825,
+      "n_attempted_windows": 320,
+      "n_episodes": 40,
+      "n_scored_windows": 320,
+      "observed_collision_control_fraction": 0.0036231884057971015,
+      "observed_collision_episode_fraction": 0.1,
+      "observed_collision_episode_wilson95": [
+        0.03957888759557486,
+        0.23052074380473897
+      ],
+      "path_length_episode_bootstrap_ci95": [
+        21.448687866864905,
+        22.697113571758965
+      ],
+      "selected_agent_fraction_over_attempted_window_agents": 0.797816265060241,
+      "tracking_bound_violation_count": 0,
+      "tracking_error_max_m": 0.0
+    },
+    "orca|spending_cs|track=0.10m": {
+      "active_window_fallback_fraction": 0.6390625,
+      "all_agents_in_score_event_window_fraction": 0.46875,
+      "endpoint_implication_active_control_fraction": 0.2453125,
+      "episode_containment_violation_fraction": 0.7,
+      "episode_containment_violation_wilson95": [
+        0.545696893456796,
+        0.8192532908430471
+      ],
+      "fallback_reason_counts": {
+        "fallback_identity_current_observation_evasive": 634,
+        "fallback_no_active_window": 200,
+        "fallback_no_feasible_action": 490,
+        "identity_speed_envelope_feasible_uncertified": 512
+      },
+      "finite_radius_containment_violation_fraction": 0.175,
+      "finite_radius_window_fraction": 1.0,
+      "identity_event_episode_fraction": 1.0,
+      "identity_event_episode_wilson95": [
+        0.9123754607496077,
+        1.0
+      ],
+      "identity_policy_window_fraction": 0.53125,
+      "mean_path_length_m": 21.100361450500422,
+      "mean_signed_waypoint_progress_m": 4.193360977581574,
+      "mean_waypoint_completions": 0.375,
+      "n_attempted_windows": 320,
+      "n_episodes": 40,
+      "n_scored_windows": 320,
+      "observed_collision_control_fraction": 0.0010869565217391304,
+      "observed_collision_episode_fraction": 0.025,
+      "observed_collision_episode_wilson95": [
+        0.0044267174077949195,
+        0.1288165948800778
+      ],
+      "path_length_episode_bootstrap_ci95": [
+        20.441433839141514,
+        21.754641038024275
+      ],
+      "selected_agent_fraction_over_attempted_window_agents": 0.8023343373493976,
+      "tracking_bound_violation_count": 0,
+      "tracking_error_max_m": 0.10000000000000127
+    },
+    "sf|cs|track=0.00m": {
+      "active_window_fallback_fraction": 0.587890625,
+      "all_agents_in_score_event_window_fraction": 0.421875,
+      "endpoint_implication_active_control_fraction": 0.291015625,
+      "episode_containment_violation_fraction": 0.45,
+      "episode_containment_violation_wilson95": [
+        0.30705075280944694,
+        0.6017117011155924
+      ],
+      "fallback_reason_counts": {
+        "fallback_identity_current_observation_evasive": 315,
+        "fallback_no_active_window": 200,
+        "fallback_no_feasible_action": 269,
+        "identity_speed_envelope_feasible_uncertified": 921
+      },
+      "finite_radius_containment_violation_fraction": 0.071875,
+      "finite_radius_window_fraction": 1.0,
+      "identity_event_episode_fraction": 1.0,
+      "identity_event_episode_wilson95": [
+        0.9123754607496077,
+        1.0
+      ],
+      "identity_policy_window_fraction": 0.578125,
+      "mean_path_length_m": 21.4138896966172,
+      "mean_signed_waypoint_progress_m": 10.720240004931508,
+      "mean_waypoint_completions": 1.05,
+      "n_attempted_windows": 320,
+      "n_episodes": 40,
+      "n_scored_windows": 320,
+      "observed_collision_control_fraction": 0.003260869565217391,
+      "observed_collision_episode_fraction": 0.1,
+      "observed_collision_episode_wilson95": [
+        0.03957888759557486,
+        0.23052074380473897
+      ],
+      "path_length_episode_bootstrap_ci95": [
+        20.615118143448647,
+        22.157543008222092
+      ],
+      "selected_agent_fraction_over_attempted_window_agents": 0.7945859872611465,
+      "tracking_bound_violation_count": 0,
+      "tracking_error_max_m": 0.0
+    },
+    "sf|cs|track=0.10m": {
+      "active_window_fallback_fraction": 0.641796875,
+      "all_agents_in_score_event_window_fraction": 0.43125,
+      "endpoint_implication_active_control_fraction": 0.2578125,
+      "episode_containment_violation_fraction": 0.35,
+      "episode_containment_violation_wilson95": [
+        0.2213433317104915,
+        0.5049440300646263
+      ],
+      "fallback_reason_counts": {
+        "fallback_identity_current_observation_evasive": 449,
+        "fallback_no_active_window": 200,
+        "fallback_no_feasible_action": 412,
+        "identity_speed_envelope_feasible_uncertified": 782
+      },
+      "finite_radius_containment_violation_fraction": 0.05625,
+      "finite_radius_window_fraction": 1.0,
+      "identity_event_episode_fraction": 1.0,
+      "identity_event_episode_wilson95": [
+        0.9123754607496077,
+        1.0
+      ],
+      "identity_policy_window_fraction": 0.56875,
+      "mean_path_length_m": 20.528418149401762,
+      "mean_signed_waypoint_progress_m": 7.103856297150983,
+      "mean_waypoint_completions": 0.675,
+      "n_attempted_windows": 320,
+      "n_episodes": 40,
+      "n_scored_windows": 320,
+      "observed_collision_control_fraction": 0.005434782608695652,
+      "observed_collision_episode_fraction": 0.125,
+      "observed_collision_episode_wilson95": [
+        0.05459419773541284,
+        0.26112420670238146
+      ],
+      "path_length_episode_bootstrap_ci95": [
+        19.683397508742996,
+        21.308926735732275
+      ],
+      "selected_agent_fraction_over_attempted_window_agents": 0.7933917197452229,
+      "tracking_bound_violation_count": 0,
+      "tracking_error_max_m": 0.10000000000000105
+    },
+    "sf|spending_cs|track=0.00m": {
+      "active_window_fallback_fraction": 0.590625,
+      "all_agents_in_score_event_window_fraction": 0.41875,
+      "endpoint_implication_active_control_fraction": 0.2890625,
+      "episode_containment_violation_fraction": 0.45,
+      "episode_containment_violation_wilson95": [
+        0.30705075280944694,
+        0.6017117011155924
+      ],
+      "fallback_reason_counts": {
+        "fallback_identity_current_observation_evasive": 289,
+        "fallback_no_active_window": 200,
+        "fallback_no_feasible_action": 266,
+        "identity_speed_envelope_feasible_uncertified": 957
+      },
+      "finite_radius_containment_violation_fraction": 0.071875,
+      "finite_radius_window_fraction": 1.0,
+      "identity_event_episode_fraction": 1.0,
+      "identity_event_episode_wilson95": [
+        0.9123754607496077,
+        1.0
+      ],
+      "identity_policy_window_fraction": 0.58125,
+      "mean_path_length_m": 21.377556897045555,
+      "mean_signed_waypoint_progress_m": 11.352316839822233,
+      "mean_waypoint_completions": 1.075,
+      "n_attempted_windows": 320,
+      "n_episodes": 40,
+      "n_scored_windows": 320,
+      "observed_collision_control_fraction": 0.002173913043478261,
+      "observed_collision_episode_fraction": 0.075,
+      "observed_collision_episode_wilson95": [
+        0.025835556771858226,
+        0.19864530159097524
+      ],
+      "path_length_episode_bootstrap_ci95": [
+        20.547166254731035,
+        22.129173879428034
+      ],
+      "selected_agent_fraction_over_attempted_window_agents": 0.7945859872611465,
+      "tracking_bound_violation_count": 0,
+      "tracking_error_max_m": 0.0
+    },
+    "sf|spending_cs|track=0.10m": {
+      "active_window_fallback_fraction": 0.638671875,
+      "all_agents_in_score_event_window_fraction": 0.428125,
+      "endpoint_implication_active_control_fraction": 0.2578125,
+      "episode_containment_violation_fraction": 0.375,
+      "episode_containment_violation_wilson95": [
+        0.2422277353579172,
+        0.529678399454681
+      ],
+      "fallback_reason_counts": {
+        "fallback_identity_current_observation_evasive": 430,
+        "fallback_no_active_window": 200,
+        "fallback_no_feasible_action": 398,
+        "identity_speed_envelope_feasible_uncertified": 807
+      },
+      "finite_radius_containment_violation_fraction": 0.0625,
+      "finite_radius_window_fraction": 1.0,
+      "identity_event_episode_fraction": 1.0,
+      "identity_event_episode_wilson95": [
+        0.9123754607496077,
+        1.0
+      ],
+      "identity_policy_window_fraction": 0.571875,
+      "mean_path_length_m": 20.26556575955184,
+      "mean_signed_waypoint_progress_m": 8.221428244131168,
+      "mean_waypoint_completions": 0.675,
+      "n_attempted_windows": 320,
+      "n_episodes": 40,
+      "n_scored_windows": 320,
+      "observed_collision_control_fraction": 0.008695652173913044,
+      "observed_collision_episode_fraction": 0.175,
+      "observed_collision_episode_wilson95": [
+        0.08745302996883066,
+        0.3195029205439244
+      ],
+      "path_length_episode_bootstrap_ci95": [
+        19.46508545987715,
+        20.998274501818226
+      ],
+      "selected_agent_fraction_over_attempted_window_agents": 0.794984076433121,
+      "tracking_bound_violation_count": 0,
+      "tracking_error_max_m": 0.10000000000000105
+    }
+  },
+  "generated_utc": "2026-09-08T09:48:37.208703Z",
+  "interpretation": "Episode-level simulated descriptive summaries; 40 attempts per cell share one frozen base pool/model. Windows are not treated as independent, zero observed collisions is not a safety proof, and there is no 320-run portfolio confidence guarantee.",
+  "locked_spec_sha256": "433748fb362aa7920c1299cab2a08d24c6fda2969acfc65c9f653db17d5f8bfb",
+  "n_completed_attempts": 320,
+  "n_failed_executions_retained": 0,
+  "n_interrupted_executions_retained": 0,
+  "n_predeclared_attempts": 320,
+  "paired_initial_condition_comparisons": {
+    "orca|track=0.00m|mixture-minus-spending": {
+      "caveat": "closed-loop score streams can differ after robot actions diverge",
+      "mean_path_length_difference_m": -0.5350282314157092,
+      "n_paired_initial_conditions": 40,
+      "paired_seed_bootstrap_ci95": [
+        -1.007914164118519,
+        -0.13000770630672098
+      ]
+    },
+    "orca|track=0.10m|mixture-minus-spending": {
+      "caveat": "closed-loop score streams can differ after robot actions diverge",
+      "mean_path_length_difference_m": -0.09024759115787995,
+      "n_paired_initial_conditions": 40,
+      "paired_seed_bootstrap_ci95": [
+        -0.6715356737900142,
+        0.48029722646454476
+      ]
+    },
+    "sf|track=0.00m|mixture-minus-spending": {
+      "caveat": "closed-loop score streams can differ after robot actions diverge",
+      "mean_path_length_difference_m": 0.036332799571650566,
+      "n_paired_initial_conditions": 40,
+      "paired_seed_bootstrap_ci95": [
+        -0.20209572347350907,
+        0.25839243440177984
+      ]
+    },
+    "sf|track=0.10m|mixture-minus-spending": {
+      "caveat": "closed-loop score streams can differ after robot actions diverge",
+      "mean_path_length_difference_m": 0.2628523898499219,
+      "n_paired_initial_conditions": 40,
+      "paired_seed_bootstrap_ci95": [
+        -0.03614119714918517,
+        0.590093801999087
+      ]
+    }
+  },
+  "same_frozen_stream_sha256": "60f0609508a961b36ebb11b8f81881a9c5da21e283402ad304afb4f257ddf95c",
+  "study_id": "p20_window_anchor_v1_revised_20260908"
+}

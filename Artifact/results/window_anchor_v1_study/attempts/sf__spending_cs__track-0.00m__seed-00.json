@@ -1,0 +1,5893 @@
+{
+  "artifact_schema_version": 1,
+  "attempt": {
+    "attempt_id": "sf__spending_cs__track-0.00m__seed-00",
+    "deployment_epoch_id": "p20_window_anchor_v1_revised_20260908/sf__spending_cs__track-0.00m__seed-00",
+    "method": "spending_cs",
+    "pcg64_seed": 5022114400855231636,
+    "regime": "sf",
+    "seed_index": 0,
+    "tracking_error_bound_m": 0.0,
+    "tracking_error_phase_rad": 0.07853981633974483,
+    "tracking_margin_m": 0.0
+  },
+  "locked_spec_sha256": "433748fb362aa7920c1299cab2a08d24c6fda2969acfc65c9f653db17d5f8bfb",
+  "provenance": {
+    "base_pool_path": "results/data/cal_sf.npy",
+    "base_pool_sha256": "17a370de0dbeb8ea197efdba2342c96a0be27b2738b81e254de44b1463d964a2",
+    "base_pool_size": 2094,
+    "completed_utc": "2026-09-08T09:46:49.485778Z",
+    "confidence_state": "fresh_at_epoch_start",
+    "deployment_epoch_id": "p20_window_anchor_v1_revised_20260908/sf__spending_cs__track-0.00m__seed-00",
+    "predictor_path": "results/models/gru_sf.pt",
+    "predictor_sha256": "0d7b452621bdf53e1d10b4ddb45b839f4c75b391826f03880c0e5da21d4bcdec",
+    "score_contract_id": "window_max_lookahead_normalized_retrospective_clean_uid_v1",
+    "started_utc": "2026-09-08T09:46:49.444516Z",
+    "within_epoch_updates": "append_scored_windows_without_reset"
+  },
+  "record": {
+    "anchored_constraint_feasible_labels": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "artifact_schema_version": 3,
+    "collision": false,
+    "collision_step_labels": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "constraint_anchor_steps": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      37,
+      37,
+      37,
+      37,
+      37,
+      37,
+      37,
+      37,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      53,
+      53,
+      53,
+      53,
+      53,
+      53,
+      53,
+      53,
+      61,
+      61,
+      61,
+      61,
+      61,
+      61,
+      61,
+      61
+    ],
+    "containment_labels_by_control_step": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "control_audit_trace": [
+      {
+        "constraint_anchor_step": null,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "3a298b1007e800ae66176c6bd27b4e2841f058bfe12f35ec484d532c61d21ffe",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 0,
+        "executed_control": [
+          -0.26787840265556323,
+          -0.6467156727579005
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "3a298b1007e800ae66176c6bd27b4e2841f058bfe12f35ec484d532c61d21ffe",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [
+          {
+            "from_uid": "8:0",
+            "observed_step": 1,
+            "slot": 8,
+            "to_uid": "8:1"
+          }
+        ],
+        "min_agent_distance_over_substeps_m": 5.547409262835404,
+        "nominal_control": [
+          -0.26787840265556323,
+          -0.6467156727579005
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:0",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 5.547409262835404,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_no_active_window",
+        "planned_robot_endpoint": [
+          -0.016742400165972702,
+          4.5595802704526305
+        ],
+        "post_respawn_endpoint_min_distance_m": 6.94325595118483,
+        "predictor_update_step": 0,
+        "realized_robot_endpoint": [
+          -0.016742400165972702,
+          4.5595802704526305
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": null,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "66912165226b3a0c5df011e3079e2f4969c5d205165eccc521b3d73e7f7cea75",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 1,
+        "executed_control": [
+          -3.6739403974420594e-16,
+          -2.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "66912165226b3a0c5df011e3079e2f4969c5d205165eccc521b3d73e7f7cea75",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 5.3249607979633025,
+        "nominal_control": [
+          -3.6739403974420594e-16,
+          -2.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 5.3249607979633025,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_no_active_window",
+        "planned_robot_endpoint": [
+          -0.033484800331945425,
+          4.394160540905261
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 1,
+        "realized_robot_endpoint": [
+          -0.033484800331945425,
+          4.394160540905261
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": null,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "7ed26a036b18e89596dde61a3421330fc1f53e7a28e8618e835cd047f61397e2",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 2,
+        "executed_control": [
+          -3.6739403974420594e-16,
+          -2.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "7ed26a036b18e89596dde61a3421330fc1f53e7a28e8618e835cd047f61397e2",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 5.024194512725052,
+        "nominal_control": [
+          -3.6739403974420594e-16,
+          -2.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 5.024194512725052,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_no_active_window",
+        "planned_robot_endpoint": [
+          -0.05022720049791818,
+          4.103740811357892
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 2,
+        "realized_robot_endpoint": [
+          -0.05022720049791818,
+          4.103740811357892
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": null,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "92efa3a9e392797db0c4026c8f0b32497ef669bfdb4769a618e609645c649e85",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 3,
+        "executed_control": [
+          -2.5717582782094415e-16,
+          -1.4
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "92efa3a9e392797db0c4026c8f0b32497ef669bfdb4769a618e609645c649e85",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 4.695543634791941,
+        "nominal_control": [
+          -2.5717582782094415e-16,
+          -1.4
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 4.695543634791941,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_no_active_window",
+        "planned_robot_endpoint": [
+          -0.06696960066389095,
+          3.7258210818105235
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 3,
+        "realized_robot_endpoint": [
+          -0.06696960066389095,
+          3.7258210818105235
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": null,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "6f461965478042fff0996670f57e67b12c451d0672e53948e3da25bedd0ced71",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 4,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "6f461965478042fff0996670f57e67b12c451d0672e53948e3da25bedd0ced71",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 4.376459246169305,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 4.376459246169305,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_no_active_window",
+        "planned_robot_endpoint": [
+          -0.08371200082986371,
+          3.347901352263155
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 4,
+        "realized_robot_endpoint": [
+          -0.08371200082986371,
+          3.347901352263155
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 5,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "960f3f2c961ac09d2552435c1e04fe5193e4c5056855f5e24607c9318c680a33",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 5,
+        "executed_control": [
+          -1.2858791391047207e-16,
+          -0.7
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "c3b05726d4cd4a1546d27b98b3d21f4b37c28ecc30c629bc979e18b9990417c6",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 4.086859835041646,
+        "nominal_control": [
+          -1.2858791391047207e-16,
+          -0.7
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 4.086859835041646,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          -0.09958150009255311,
+          2.9482162774940917
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 5,
+        "realized_robot_endpoint": [
+          -0.09958150009255311,
+          2.9482162774940917
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 5,
+        "constraint_horizon": 7,
+        "constraint_prediction_sha256": "7f74e744d3d26668a2cdb4f75cad82e1b4f359e2fbc2c21db4be1c851b6b5dfb",
+        "constraint_region_scales": [
+          0.14285714285714285,
+          0.2857142857142857,
+          0.42857142857142855,
+          0.5714285714285714,
+          0.7142857142857143,
+          0.8571428571428571,
+          1.0
+        ],
+        "control_step": 6,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "f7a242062d13bc53d8f7098dd692937e9aedb935dbca2e9a6e955fbc58d1395a",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.844757763096484,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.844757763096484,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          -0.1154509993552425,
+          2.5485312027250284
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 6,
+        "realized_robot_endpoint": [
+          -0.1154509993552425,
+          2.5485312027250284
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 5,
+        "constraint_horizon": 6,
+        "constraint_prediction_sha256": "914ba7070c421c6d8abe24321f1fffdaf3291a6e2210b4a3b78905d5272d49f8",
+        "constraint_region_scales": [
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          1.0
+        ],
+        "control_step": 7,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "8c780600d56a2e20e5588e3be8f86325291727e0806fa067eb056f97c5e823de",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.664941026516476,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.664941026516476,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          -0.13132049861793188,
+          2.148846127955965
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 7,
+        "realized_robot_endpoint": [
+          -0.13132049861793188,
+          2.148846127955965
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 5,
+        "constraint_horizon": 5,
+        "constraint_prediction_sha256": "1d332326ff2691a0b962c2623343f5b490f63a802ee04a90325e2caae36a6f3b",
+        "constraint_region_scales": [
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "control_step": 8,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "ee58bee60c5162782836c93ffccdb8f533f0fb10211ece24af3f5f0eefcba089",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.559917132172001,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.559917132172001,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          -0.14718999788062126,
+          1.7491610531869022
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 8,
+        "realized_robot_endpoint": [
+          -0.14718999788062126,
+          1.7491610531869022
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 5,
+        "constraint_horizon": 4,
+        "constraint_prediction_sha256": "cb990fd737201fd47024a30b76a327ace7d856de1c8e75d00231a039877a2263",
+        "constraint_region_scales": [
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "control_step": 9,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "b80d90d5c93382e9304041970cd32dbff2073989d10e95246850c298f56bc80b",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.3021073822653464,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.3021073822653464,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          -0.16305949714331064,
+          1.3494759784178392
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 9,
+        "realized_robot_endpoint": [
+          -0.16305949714331064,
+          1.3494759784178392
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 5,
+        "constraint_horizon": 3,
+        "constraint_prediction_sha256": "22907b48530070625c27c0af64bebd4340dce4b02fc391a39d0eb47b2aa5731f",
+        "constraint_region_scales": [
+          0.3333333333333333,
+          0.6666666666666666,
+          1.0
+        ],
+        "control_step": 10,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "a9cd1b6c4afd6e40f5bd630b88db230564c54e9d2e87c92448cad505e4360d1e",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.065905615405343,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.065905615405343,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          -0.17892899640600002,
+          0.9497909036487762
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 10,
+        "realized_robot_endpoint": [
+          -0.17892899640600002,
+          0.9497909036487762
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 5,
+        "constraint_horizon": 2,
+        "constraint_prediction_sha256": "93b0412370941c749daf7619554533b0135a0791d08fbd215c809262336e6369",
+        "constraint_region_scales": [
+          0.5,
+          1.0
+        ],
+        "control_step": 11,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "d7ebd1bb89403d6be8046b12aee344443988883c27aa36f7d0cba54c997ac70f",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.693259911475251,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.693259911475251,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          -0.1947984956686894,
+          0.5501058288797132
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 11,
+        "realized_robot_endpoint": [
+          -0.1947984956686894,
+          0.5501058288797132
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 5,
+        "constraint_horizon": 1,
+        "constraint_prediction_sha256": "050a8b00dfe5089cbb1f6ec014c862a28210742ecd1a03137366c568fda14425",
+        "constraint_region_scales": [
+          1.0
+        ],
+        "control_step": 12,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "1702c6af4d962b6d9f6e1bf38b2f7c0195f0bdcc19f48a3e2e93899a00d12c41",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.2594513725055076,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.2594513725055076,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          -0.21066799493137878,
+          0.1504207541106501
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 12,
+        "realized_robot_endpoint": [
+          -0.21066799493137878,
+          0.1504207541106501
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 13,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "2ef84aef0a4d0c21cae61988575bccd7bed7f8099b9fb8d46c524b8dfca07e6f",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 13,
+        "executed_control": [
+          -1.8477590650225735,
+          0.7653668647301798
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "2ef84aef0a4d0c21cae61988575bccd7bed7f8099b9fb8d46c524b8dfca07e6f",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.0093885997215426,
+        "nominal_control": [
+          -1.8477590650225735,
+          0.7653668647301798
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.0093885997215426,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -0.34202243575797897,
+          -0.20142889161277672
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 13,
+        "realized_robot_endpoint": [
+          -0.34202243575797897,
+          -0.20142889161277672
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 13,
+        "constraint_horizon": 7,
+        "constraint_prediction_sha256": "a12d599e39182d8a141209261868a385bf6fe3763f8af75f5c82ccf6570c5a04",
+        "constraint_region_scales": [
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 14,
+        "executed_control": [
+          -0.9899494936611664,
+          0.9899494936611666
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "7ac40e2ef4aa949b343025228b818e49076a51251b6257b07c569a718b049f3e",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.8877711382384312,
+        "nominal_control": [
+          -0.9899494936611664,
+          0.9899494936611666
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.8877711382384312,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -0.5352487199384021,
+          -0.4914066939823806
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 14,
+        "realized_robot_endpoint": [
+          -0.5352487199384021,
+          -0.4914066939823806
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 13,
+        "constraint_horizon": 6,
+        "constraint_prediction_sha256": "073ae3155ac2e6be19f068517ab7786818e838ea574db9602cf46b8814fa544d",
+        "constraint_region_scales": [
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 15,
+        "executed_control": [
+          -0.9899494936611664,
+          0.9899494936611666
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "27610d0ec595f12905d183352db7a0594c6237d658baadaa883024c2d9504e88",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.869653035010847,
+        "nominal_control": [
+          -0.9899494936611664,
+          0.9899494936611666
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.869653035010847,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -0.790346847472648,
+          -0.7195126529981617
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 15,
+        "realized_robot_endpoint": [
+          -0.790346847472648,
+          -0.7195126529981617
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 13,
+        "constraint_horizon": 5,
+        "constraint_prediction_sha256": "e651fcc1138f9d34096b4e0cf04f19d31b8107702652b7c622a1eacab0c3828d",
+        "constraint_region_scales": [
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 16,
+        "executed_control": [
+          -1.8477590650225735,
+          0.7653668647301798
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "cc02877dcde19389bfcfa97cf10a8c1f551bbd6e1ff8584ec6af8de381283666",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.6102653806992802,
+        "nominal_control": [
+          -1.8477590650225735,
+          0.7653668647301798
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.6102653806992802,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -1.1500458944548793,
+          -0.8944886387792815
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 16,
+        "realized_robot_endpoint": [
+          -1.1500458944548793,
+          -0.8944886387792815
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 13,
+        "constraint_horizon": 4,
+        "constraint_prediction_sha256": "bfe21613498bae2f9a4c6fd7fbd46ecea659c8fa0b15026803cf5b58e661df2f",
+        "constraint_region_scales": [
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 17,
+        "executed_control": [
+          -0.6467156727579007,
+          0.2678784026555629
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "35203d10458eb73d5feff440121b13f24b230cd1585d1647491e6e08d275530e",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.4869607595026546,
+        "nominal_control": [
+          -0.6467156727579007,
+          0.2678784026555629
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.4869607595026546,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -1.522015212030098,
+          -1.0415900554367226
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 17,
+        "realized_robot_endpoint": [
+          -1.522015212030098,
+          -1.0415900554367226
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 13,
+        "constraint_horizon": 3,
+        "constraint_prediction_sha256": "a459088b5e40ae35a42b2d3a800cac1679a982549edf5f83644d48a7fd49f6c6",
+        "constraint_region_scales": [
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 18,
+        "executed_control": [
+          -0.6467156727579007,
+          0.2678784026555629
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "222721ba58eae914d632be321bf9b972e42514c417c0f3571a6523b0f58179f7",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.501851501034505,
+        "nominal_control": [
+          -0.6467156727579007,
+          0.2678784026555629
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.501851501034505,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -1.9034134994997842,
+          -1.1621526794758115
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 18,
+        "realized_robot_endpoint": [
+          -1.9034134994997842,
+          -1.1621526794758115
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 13,
+        "constraint_horizon": 2,
+        "constraint_prediction_sha256": "f96a6b2dd0d1136847590dc6c541fd36db163225c985db6120e894fdb9b764dc",
+        "constraint_region_scales": [
+          0.875,
+          1.0
+        ],
+        "control_step": 19,
+        "executed_control": [
+          -3.6739403974420594e-16,
+          -2.0
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "e2a41e62567e6ffe681287151ab6bdf1efc91e94c0c9f691c2ce44c58f92b843",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.7126693941557443,
+        "nominal_control": [
+          -3.6739403974420594e-16,
+          -2.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.7126693941557443,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -2.23973318283479,
+          -1.3786915226459022
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 19,
+        "realized_robot_endpoint": [
+          -2.23973318283479,
+          -1.3786915226459022
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 13,
+        "constraint_horizon": 1,
+        "constraint_prediction_sha256": "72051e92f471deff2cb215aae1a7331baa5951651cf61549d4df7e99e71bac47",
+        "constraint_region_scales": [
+          1.0
+        ],
+        "control_step": 20,
+        "executed_control": [
+          1.4142135623730947,
+          -1.4142135623730954
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "5fa017d7e6b8c46ad6a7d77ccc73312846acca30189588f4461f31233146024e",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.9870958217808081,
+        "nominal_control": [
+          1.4142135623730947,
+          -1.4142135623730954
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.9870958217808081,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -2.487664518521478,
+          -1.6836187134643115
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 20,
+        "realized_robot_endpoint": [
+          -2.487664518521478,
+          -1.6836187134643115
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 21,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "c2dd796efa17f8e3fb52b0f1cbc9bf9ee2451388d16f8263ec1b0d7f149d9f36",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 21,
+        "executed_control": [
+          0.76536686473018,
+          -1.8477590650225733
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "c2dd796efa17f8e3fb52b0f1cbc9bf9ee2451388d16f8263ec1b0d7f149d9f36",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.9400808714935434,
+        "nominal_control": [
+          0.76536686473018,
+          -1.8477590650225733
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.9400808714935434,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -2.6595676740466194,
+          -2.0447963776691997
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 21,
+        "realized_robot_endpoint": [
+          -2.6595676740466194,
+          -2.0447963776691997
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 21,
+        "constraint_horizon": 7,
+        "constraint_prediction_sha256": "6204226b7fda3f2f9e369051e0a92097c2e74723ec69cb72a3bb78d437ceaa07",
+        "constraint_region_scales": [
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 22,
+        "executed_control": [
+          0.76536686473018,
+          -1.8477590650225733
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "e56057fbdd404617e5f09029e2c752d5d71e347682e6529b6032bd480e3d43f5",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.9284797675259844,
+        "nominal_control": [
+          0.76536686473018,
+          -1.8477590650225733
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.9284797675259844,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -2.76032424546501,
+          -2.4318985777611273
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 22,
+        "realized_robot_endpoint": [
+          -2.76032424546501,
+          -2.4318985777611273
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 21,
+        "constraint_horizon": 6,
+        "constraint_prediction_sha256": "5b29c34e50427f2e839f353ac40339bb5d5ca6a21b804d096dfa227941b089ad",
+        "constraint_region_scales": [
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 23,
+        "executed_control": [
+          0.76536686473018,
+          -1.8477590650225733
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "320c708282d7c5d01ad789e645567435c1352ba4ea50be9dd80702cbd91ec297",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.9565006165588248,
+        "nominal_control": [
+          0.76536686473018,
+          -1.8477590650225733
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.9565006165588248,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -2.8022116495766576,
+          -2.8296993386663667
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 23,
+        "realized_robot_endpoint": [
+          -2.8022116495766576,
+          -2.8296993386663667
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 21,
+        "constraint_horizon": 5,
+        "constraint_prediction_sha256": "1bea30bf68be77266a49612e9e091f525e43c82e20be9ae75715aefa1a64c031",
+        "constraint_region_scales": [
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 24,
+        "executed_control": [
+          0.76536686473018,
+          -1.8477590650225733
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "9aef381f0d3e6c2c68a77c362be95119ea1525d2b1054dbfa4118a666d92d0a2",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.076727925605653,
+        "nominal_control": [
+          0.76536686473018,
+          -1.8477590650225733
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.076727925605653,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -2.797576706050598,
+          -3.229672484388064
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 24,
+        "realized_robot_endpoint": [
+          -2.797576706050598,
+          -3.229672484388064
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 21,
+        "constraint_horizon": 4,
+        "constraint_prediction_sha256": "1abfdcb9263250a2f96ae66cf26c6b08e252209417f3527c772d1ad404d0166b",
+        "constraint_region_scales": [
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 25,
+        "executed_control": [
+          0.4949747468305831,
+          -0.49497474683058335
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "e2181dce08ace8f813be337e90b6b2f53228dfe8b8ddc51421d4de3b58a53964",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.302565804283187,
+        "nominal_control": [
+          0.4949747468305831,
+          -0.49497474683058335
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.302565804283187,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -2.7646692649951574,
+          -3.6283165616338984
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 25,
+        "realized_robot_endpoint": [
+          -2.7646692649951574,
+          -3.6283165616338984
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 21,
+        "constraint_horizon": 3,
+        "constraint_prediction_sha256": "08799bcc33e73fc50124db875875c08c1fec4c6c9cd8ebcb3f6f8d6ece8b8e68",
+        "constraint_region_scales": [
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 26,
+        "executed_control": [
+          0.4949747468305831,
+          -0.49497474683058335
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "f0ba932c851004667c48ebf6b2e9cfcc5069b69b538f2f03f1f1afc5e5a1c842",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.535311889562457,
+        "nominal_control": [
+          0.4949747468305831,
+          -0.49497474683058335
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.535311889562457,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -2.7058678620101007,
+          -4.023970949966682
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 26,
+        "realized_robot_endpoint": [
+          -2.7058678620101007,
+          -4.023970949966682
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 21,
+        "constraint_horizon": 2,
+        "constraint_prediction_sha256": "6680d08af4b037302ada2597faeaa4340c5fa39b48fa4d7a0ac307a590c243df",
+        "constraint_region_scales": [
+          0.875,
+          1.0
+        ],
+        "control_step": 27,
+        "executed_control": [
+          0.6467156727579005,
+          -0.26787840265556323
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "96f77d8c84134748c9d0e325f6b945f0027b69f1c184ca2369ba427f8fcc3e85",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.202681215114967,
+        "nominal_control": [
+          0.6467156727579005,
+          -0.26787840265556323
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.202681215114967,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -2.6122994314818238,
+          -4.41287318550728
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 27,
+        "realized_robot_endpoint": [
+          -2.6122994314818238,
+          -4.41287318550728
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 21,
+        "constraint_horizon": 1,
+        "constraint_prediction_sha256": "925c53d7ab9cff1ba7ae33171a359bc1d680f54cac488754d3c08e6e6666e23b",
+        "constraint_region_scales": [
+          1.0
+        ],
+        "control_step": 28,
+        "executed_control": [
+          0.7,
+          0.0
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "c7e5d282acfe629c49fbfa4890bdd929308d088bf7b28fe39c350bf39bddf1a1",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.9266699502984237,
+        "nominal_control": [
+          0.7,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.9266699502984237,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -2.479120659570812,
+          -4.790051412228117
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 28,
+        "realized_robot_endpoint": [
+          -2.479120659570812,
+          -4.790051412228117
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 29,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "dddac08cc3a846972d1e9908952a37b6708f5a8067a9ed65f071a0aee0b80146",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 29,
+        "executed_control": [
+          0.7653668647301797,
+          1.8477590650225735
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "dddac08cc3a846972d1e9908952a37b6708f5a8067a9ed65f071a0aee0b80146",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.684968191960966,
+        "nominal_control": [
+          0.7653668647301797,
+          1.8477590650225735
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.684968191960966,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_no_feasible_action",
+        "planned_robot_endpoint": [
+          -2.2981064586141646,
+          -5.051744697385042
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 29,
+        "realized_robot_endpoint": [
+          -2.2981064586141646,
+          -5.051744697385042
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 29,
+        "constraint_horizon": 7,
+        "constraint_prediction_sha256": "efe3d352dcbd2466c6270ccb3565ee433a164b596a68ecd92e18a8fab5dda6a2",
+        "constraint_region_scales": [
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 30,
+        "executed_control": [
+          0.7653668647301797,
+          1.8477590650225735
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "892208052a99f854cf3a2220c95c2d30480a59648a9820e018eaabb05560cc1b",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.4757982086758834,
+        "nominal_control": [
+          0.7653668647301797,
+          1.8477590650225735
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.4757982086758834,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_no_feasible_action",
+        "planned_robot_endpoint": [
+          -2.0692568286118806,
+          -5.197953040978057
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 30,
+        "realized_robot_endpoint": [
+          -2.0692568286118806,
+          -5.197953040978057
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 29,
+        "constraint_horizon": 6,
+        "constraint_prediction_sha256": "473fa70c8134f558f0e6c994195e7c63273d66bef659678015a25b09ee75ec03",
+        "constraint_region_scales": [
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 31,
+        "executed_control": [
+          1.4142135623730951,
+          1.414213562373095
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "7a18c7fa8d0d3ab82e2ac7aaaa9531c463bd283a9b8ba27d47527d02a8191415",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.3455676662485085,
+        "nominal_control": [
+          1.4142135623730951,
+          1.414213562373095
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.3455676662485085,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -1.7520188509612784,
+          -5.255773036922754
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 31,
+        "realized_robot_endpoint": [
+          -1.7520188509612784,
+          -5.255773036922754
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 29,
+        "constraint_horizon": 5,
+        "constraint_prediction_sha256": "2bd970d979c7d83930859bf1521867ed1509c3cc4923083ee5b7864ef0d1ec5b",
+        "constraint_region_scales": [
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 32,
+        "executed_control": [
+          0.5357568053111257,
+          1.2934313455158013
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "5eb5fe2e2a2b2af28c9569a3bc4967e48fc619c34142c3ce7801ac3f632b8f7e",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.3340790489200962,
+        "nominal_control": [
+          0.5357568053111257,
+          1.2934313455158013
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.3340790489200962,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -1.4012960729787307,
+          -5.2327535737727136
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 32,
+        "realized_robot_endpoint": [
+          -1.4012960729787307,
+          -5.2327535737727136
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 29,
+        "constraint_horizon": 4,
+        "constraint_prediction_sha256": "3e6be48b9a3b085edba5052d62632a743598cd4574e8304aaf15bd08eeda4f2c",
+        "constraint_region_scales": [
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 33,
+        "executed_control": [
+          1.4142135623730951,
+          1.414213562373095
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "7da05aa7985fa5fed757a8ad120b9f5b66400f895bf3a9891e1d61c787e8a556",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.4380388040619785,
+        "nominal_control": [
+          1.4142135623730951,
+          1.414213562373095
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.4380388040619785,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -1.0135800830022301,
+          -5.134385331354024
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 33,
+        "realized_robot_endpoint": [
+          -1.0135800830022301,
+          -5.134385331354024
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 29,
+        "constraint_horizon": 3,
+        "constraint_prediction_sha256": "58e26d8a8a8c0e2f1db38bcfe6660d51e267cd3a776c6071d2d0c872d2550165",
+        "constraint_region_scales": [
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 34,
+        "executed_control": [
+          -0.2678784026555628,
+          0.6467156727579007
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "91c86395e8c368e97fb59ac210a8c4500452539900d3ebec7cff5e31f79ed585",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.7458449848122437,
+        "nominal_control": [
+          -0.2678784026555628,
+          0.6467156727579007
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 1.7458449848122437,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -0.6426064931917022,
+          -4.995597359387966
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 34,
+        "realized_robot_endpoint": [
+          -0.6426064931917022,
+          -4.995597359387966
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 29,
+        "constraint_horizon": 2,
+        "constraint_prediction_sha256": "fc1d63e74ff4bf2fc9e71c154db81e22acfad0b79e4063320efa3d8c56af1aaa",
+        "constraint_region_scales": [
+          0.875,
+          1.0
+        ],
+        "control_step": 35,
+        "executed_control": [
+          -0.4949747468305832,
+          0.4949747468305833
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "30433390f24ef30db1ca692c32087aca39358f9d7e82fd7613d273873cf956ab",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.1781038456151838,
+        "nominal_control": [
+          -0.4949747468305832,
+          0.4949747468305833
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.1781038456151838,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -0.30256882505808563,
+          -4.825873465744996
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 35,
+        "realized_robot_endpoint": [
+          -0.30256882505808563,
+          -4.825873465744996
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 29,
+        "constraint_horizon": 1,
+        "constraint_prediction_sha256": "17ab1ade3945178bd6727e6ad8b814a429568a523d7980b40e81bcda8adf22e8",
+        "constraint_region_scales": [
+          1.0
+        ],
+        "control_step": 36,
+        "executed_control": [
+          -0.7653668647301795,
+          1.8477590650225735
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "d52a46296a1737a4d81176a5c36330576b5e339afe19f58c2ad550d9d25ef597",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.6477989665693022,
+        "nominal_control": [
+          -0.7653668647301795,
+          1.8477590650225735
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.6477989665693022,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          -0.01632141351469013,
+          -4.546476938592804
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 36,
+        "realized_robot_endpoint": [
+          -0.01632141351469013,
+          -4.546476938592804
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 37,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "b41b00558c4a80f55cc8dcc5d6d45f8ae24b4fc976fee594715d7d993ad39fe7",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 37,
+        "executed_control": [
+          -0.7653668647301795,
+          1.8477590650225735
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "b41b00558c4a80f55cc8dcc5d6d45f8ae24b4fc976fee594715d7d993ad39fe7",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [
+          {
+            "from_uid": "6:0",
+            "observed_step": 38,
+            "slot": 6,
+            "to_uid": "6:1"
+          }
+        ],
+        "min_agent_distance_over_substeps_m": 3.089845297833326,
+        "nominal_control": [
+          -0.7653668647301795,
+          1.8477590650225735
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.089845297833326,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          0.19042176646676717,
+          -4.204048467914394
+        ],
+        "post_respawn_endpoint_min_distance_m": 9.051820967028258,
+        "predictor_update_step": 37,
+        "realized_robot_endpoint": [
+          0.19042176646676717,
+          -4.204048467914394
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 37,
+        "constraint_horizon": 7,
+        "constraint_prediction_sha256": "336d6f314ab9a7bc480a09194194a8bd4c7af6a28fbe0dfaabaa012a6bf3e811",
+        "constraint_region_scales": [
+          0.14285714285714285,
+          0.2857142857142857,
+          0.42857142857142855,
+          0.5714285714285714,
+          0.7142857142857143,
+          0.8571428571428571,
+          1.0
+        ],
+        "control_step": 38,
+        "executed_control": [
+          -0.7653668647301807,
+          -1.847759065022573
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "148541d8fd6a641d4b4c29ba95bf3cf730bb6f3c484605d5ccefcea4544369aa",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.504726586339885,
+        "nominal_control": [
+          -0.7653668647301807,
+          -1.847759065022573
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.504726586339885,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_identity_current_observation_evasive",
+        "planned_robot_endpoint": [
+          0.3493295174025882,
+          -3.9771049387998945
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 38,
+        "realized_robot_endpoint": [
+          0.3493295174025882,
+          -3.9771049387998945
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 37,
+        "constraint_horizon": 6,
+        "constraint_prediction_sha256": "fa9e6feff64451b6a6e50039e92a3d03c751ec32bdc9ab09fdc4627dbc1ef4d7",
+        "constraint_region_scales": [
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          1.0
+        ],
+        "control_step": 39,
+        "executed_control": [
+          -0.7653668647301807,
+          -1.847759065022573
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "02ec2dd891df4854b591c1c458c2b0b724ef1ddd2ea6f819610472c57a56521d",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [
+          {
+            "from_uid": "1:0",
+            "observed_step": 40,
+            "slot": 1,
+            "to_uid": "1:1"
+          },
+          {
+            "from_uid": "3:0",
+            "observed_step": 40,
+            "slot": 3,
+            "to_uid": "3:1"
+          },
+          {
+            "from_uid": "7:0",
+            "observed_step": 40,
+            "slot": 7,
+            "to_uid": "7:1"
+          }
+        ],
+        "min_agent_distance_over_substeps_m": 3.63798040067086,
+        "nominal_control": [
+          -0.7653668647301807,
+          -1.847759065022573
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.63798040067086,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.46040183929277295,
+          -3.865646351249306
+        ],
+        "post_respawn_endpoint_min_distance_m": 5.9468335300636115,
+        "predictor_update_step": 39,
+        "realized_robot_endpoint": [
+          0.46040183929277295,
+          -3.865646351249306
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 37,
+        "constraint_horizon": 5,
+        "constraint_prediction_sha256": "0d3b1aefc5298abbf0352d12479c278cd0b12b6fbae86867f03cd2df7c34be39",
+        "constraint_region_scales": [
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "control_step": 40,
+        "executed_control": [
+          1.2246467991473532e-16,
+          2.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "4e600dd3c021d016d3d4d9fc8df369762becbc0eac1914489c78ac1695802ce3",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.8087095607181674,
+        "nominal_control": [
+          1.2246467991473532e-16,
+          2.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.8087095607181674,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.5714741611829577,
+          -3.6291877636987175
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 40,
+        "realized_robot_endpoint": [
+          0.5714741611829577,
+          -3.6291877636987175
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 37,
+        "constraint_horizon": 4,
+        "constraint_prediction_sha256": "d8709c2f7c1c5740bcf0d0d8524be8011d70f5336106a38e2c4e960a913de5b8",
+        "constraint_region_scales": [
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "control_step": 41,
+        "executed_control": [
+          -0.7653668647301795,
+          1.8477590650225735
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "c3b1bbcfdff41e1fbae2bc863fd3b63d2ff1d84dfb66e93b40270fb441f49146",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.93171088246197,
+        "nominal_control": [
+          -0.7653668647301795,
+          1.8477590650225735
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.93171088246197,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.6347110540275063,
+          -3.2772442345842183
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 41,
+        "realized_robot_endpoint": [
+          0.6347110540275063,
+          -3.2772442345842183
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 37,
+        "constraint_horizon": 3,
+        "constraint_prediction_sha256": "b54da1175fd3d0982c705ce30092ab9740c7bb76444ec717fbc52e3f5f72ca27",
+        "constraint_region_scales": [
+          0.3333333333333333,
+          0.6666666666666666,
+          1.0
+        ],
+        "control_step": 42,
+        "executed_control": [
+          -0.5357568053111256,
+          1.2934313455158013
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "e1e47f27bce15b968e72a22ef72a8042d76a722d946aade75d2dd9d1f7f56c31",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 4.009017457362798,
+        "nominal_control": [
+          -0.5357568053111256,
+          1.2934313455158013
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 4.009017457362798,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.6621446983153064,
+          -2.878186099519801
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 42,
+        "realized_robot_endpoint": [
+          0.6621446983153064,
+          -2.878186099519801
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 37,
+        "constraint_horizon": 2,
+        "constraint_prediction_sha256": "ade0f8c53487f72880304f9d468383794ac4c4f1e5ea6444776f1009c545c17c",
+        "constraint_region_scales": [
+          0.5,
+          1.0
+        ],
+        "control_step": 43,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "d45d6bfe8f6e317454f4beeba8efedb07c9afff49c8394ed6fbb67ef616cb2c8",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 4.096519790679238,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 4.096519790679238,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.6895783426031066,
+          -2.479127964455384
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 43,
+        "realized_robot_endpoint": [
+          0.6895783426031066,
+          -2.479127964455384
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 37,
+        "constraint_horizon": 1,
+        "constraint_prediction_sha256": "7b2c829f5756b0ef808503d32ea3be582222489ab87db6cef80ffa9dd6fcaaa0",
+        "constraint_region_scales": [
+          1.0
+        ],
+        "control_step": 44,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "a46e1b3ff5e62bb107cfccaace16fc8b70095f98fd76b14179cc316db416acdd",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.901221079815582,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.901221079815582,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.7170119868909067,
+          -2.080069829390967
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 44,
+        "realized_robot_endpoint": [
+          0.7170119868909067,
+          -2.080069829390967
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 45,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "21cfee63d673213830a0da6b721d20b0e619b2ec2b3009c7d50a3f5ec94822b1",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 45,
+        "executed_control": [
+          -0.2678784026555628,
+          0.6467156727579007
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "21cfee63d673213830a0da6b721d20b0e619b2ec2b3009c7d50a3f5ec94822b1",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.456764394739876,
+        "nominal_control": [
+          -0.2678784026555628,
+          0.6467156727579007
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.456764394739876,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          0.7267399689278133,
+          -1.6801881389305389
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 45,
+        "realized_robot_endpoint": [
+          0.7267399689278133,
+          -1.6801881389305389
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 45,
+        "constraint_horizon": 7,
+        "constraint_prediction_sha256": "afe68882049d36e3dff94eeba955bf4a6f22af0e650482637791bd55fc90b9d7",
+        "constraint_region_scales": [
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 46,
+        "executed_control": [
+          -0.2678784026555628,
+          0.6467156727579007
+        ],
+        "fallback": false,
+        "fresh_prediction_sha256": "f1f422282c45ce152b42483554f4600f4c90cd25a5e3aa27b685bf8e86b3c460",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": false,
+        "identity_policy_input": "anchored_prediction_suffix",
+        "identity_transitions_observed_after_control": [
+          {
+            "from_uid": "0:0",
+            "observed_step": 47,
+            "slot": 0,
+            "to_uid": "0:1"
+          }
+        ],
+        "min_agent_distance_over_substeps_m": 3.0512752281001183,
+        "nominal_control": [
+          -0.2678784026555628,
+          0.6467156727579007
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:0",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 3.0512752281001183,
+        "observed_substep_collision": false,
+        "plan_status": "certified",
+        "planned_robot_endpoint": [
+          0.7203683990281992,
+          -1.2802388882786413
+        ],
+        "post_respawn_endpoint_min_distance_m": 7.906076728983965,
+        "predictor_update_step": 46,
+        "realized_robot_endpoint": [
+          0.7203683990281992,
+          -1.2802388882786413
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 45,
+        "constraint_horizon": 6,
+        "constraint_prediction_sha256": "e1600d9c446eb8d07e73c03d13a82da71dc15d756f1d7923fad21422b772b77a",
+        "constraint_region_scales": [
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          1.0
+        ],
+        "control_step": 47,
+        "executed_control": [
+          -0.2678784026555628,
+          0.6467156727579007
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "f874528de09ff1c3b385ba0a99da022a928cb3064609dc0d6c28416f4e8a8251",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.702393035873762,
+        "nominal_control": [
+          -0.2678784026555628,
+          0.6467156727579007
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.702393035873762,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.6994021659993376,
+          -0.8807887448657499
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 47,
+        "realized_robot_endpoint": [
+          0.6994021659993376,
+          -0.8807887448657499
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 45,
+        "constraint_horizon": 5,
+        "constraint_prediction_sha256": "7591cb3bedea60cac86170f4f23d1f2304f7a659c934ac0cc73d737fbf5292cd",
+        "constraint_region_scales": [
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "control_step": 48,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "ec99c99f9d8a139c0a4c380b7702b4c327fd2582709cf9df212c254c1a35bd00",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.418721420586905,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.418721420586905,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.678435932970476,
+          -0.4813386014528585
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 48,
+        "realized_robot_endpoint": [
+          0.678435932970476,
+          -0.4813386014528585
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 45,
+        "constraint_horizon": 4,
+        "constraint_prediction_sha256": "61e9418b91789d44378bc1f1ca6b7fe6db146f21347e99ad3a6d51a81af75558",
+        "constraint_region_scales": [
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "control_step": 49,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "e0e9c125405463da2fe173b6dcb1337facc336624547bb8d7ce62bcaca2c3163",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.228212608954786,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.228212608954786,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.6574696999416144,
+          -0.08188845803996714
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 49,
+        "realized_robot_endpoint": [
+          0.6574696999416144,
+          -0.08188845803996714
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 45,
+        "constraint_horizon": 3,
+        "constraint_prediction_sha256": "efce0e3d3487e6015d712424c9f323acdf37db5500591ec2d65c089293e3afc9",
+        "constraint_region_scales": [
+          0.3333333333333333,
+          0.6666666666666666,
+          1.0
+        ],
+        "control_step": 50,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "1a701a1703e2eb15fb791e44fc0390edcc3649daad7c306291ed9a28edeac55c",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [
+          {
+            "from_uid": "10:0",
+            "observed_step": 51,
+            "slot": 10,
+            "to_uid": "10:1"
+          }
+        ],
+        "min_agent_distance_over_substeps_m": 2.1573776878983133,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "observed_step_min_distance_m": 2.1573776878983133,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.6365034669127528,
+          0.31756168537292423
+        ],
+        "post_respawn_endpoint_min_distance_m": 7.070079394430197,
+        "predictor_update_step": 50,
+        "realized_robot_endpoint": [
+          0.6365034669127528,
+          0.31756168537292423
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 45,
+        "constraint_horizon": 2,
+        "constraint_prediction_sha256": "d9a76e854407557ae8ab82e7795fcf9f5da98f45a73762bcaeab5536361b7047",
+        "constraint_region_scales": [
+          0.5,
+          1.0
+        ],
+        "control_step": 51,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "eaaa49b41e0f736c38b802977c0e23c470f2f6f7b8a368b70f3449ee43870304",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [
+          {
+            "from_uid": "5:0",
+            "observed_step": 52,
+            "slot": 5,
+            "to_uid": "5:1"
+          }
+        ],
+        "min_agent_distance_over_substeps_m": 2.1590394861121927,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 2.1590394861121927,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.6155372338838913,
+          0.7170118287858156
+        ],
+        "post_respawn_endpoint_min_distance_m": 6.102793781154241,
+        "predictor_update_step": 51,
+        "realized_robot_endpoint": [
+          0.6155372338838913,
+          0.7170118287858156
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 45,
+        "constraint_horizon": 1,
+        "constraint_prediction_sha256": "6e582b6518e61b3d7781ee45b638404fcb6c2d89f1d368113f89a4ca947017d0",
+        "constraint_region_scales": [
+          1.0
+        ],
+        "control_step": 52,
+        "executed_control": [
+          0.0,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "b6edd749933595875a9948e0da3cd21767cc0fc80dfcd88296bf75c81b5d5009",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.246004628373893,
+        "nominal_control": [
+          0.0,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 2.246004628373893,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.5945710008550297,
+          1.116461972198707
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 52,
+        "realized_robot_endpoint": [
+          0.5945710008550297,
+          1.116461972198707
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 53,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "9a4aea6eced0d81b00bf974fcf25f649d49ab47b293648ac6764b82f4fca9560",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 53,
+        "executed_control": [
+          1.8477590650225735,
+          0.7653668647301796
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "02ff7fe0b08c5077b6e58cc699d5acd164254447a1065a1527a5e11f0119db57",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.4051241089894324,
+        "nominal_control": [
+          1.8477590650225735,
+          0.7653668647301796
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 2.4051241089894324,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_identity_current_observation_evasive",
+        "planned_robot_endpoint": [
+          0.6772711949860823,
+          1.507819453142519
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 53,
+        "realized_robot_endpoint": [
+          0.6772711949860823,
+          1.507819453142519
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 53,
+        "constraint_horizon": 7,
+        "constraint_prediction_sha256": "4d6c800e900020327b78a69af60c4d800b3eb9986808c42143555d09a91c8743",
+        "constraint_region_scales": [
+          0.14285714285714285,
+          0.2857142857142857,
+          0.42857142857142855,
+          0.5714285714285714,
+          0.7142857142857143,
+          0.8571428571428571,
+          1.0
+        ],
+        "control_step": 54,
+        "executed_control": [
+          1.847759065022573,
+          -0.7653668647301808
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "2b66550d307fb89ea4cbd899d37245f2fcd03bd08fd2d32c8c40f63b44914705",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.0905789758398914,
+        "nominal_control": [
+          1.847759065022573,
+          -0.7653668647301808
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 2.0905789758398914,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_identity_current_observation_evasive",
+        "planned_robot_endpoint": [
+          0.8754563306810459,
+          1.8513415050406947
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 54,
+        "realized_robot_endpoint": [
+          0.8754563306810459,
+          1.8513415050406947
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 53,
+        "constraint_horizon": 6,
+        "constraint_prediction_sha256": "b48a4a234c97f81fa0a48481d60dfed2f127315e2ce22700f06354a7edc6eb6e",
+        "constraint_region_scales": [
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          1.0
+        ],
+        "control_step": 55,
+        "executed_control": [
+          1.4,
+          0.0
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "92d3ccb40be318e123dd201189300c133ec167cef29ece425b9349dfaaf82fdb",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [
+          {
+            "from_uid": "4:0",
+            "observed_step": 56,
+            "slot": 4,
+            "to_uid": "4:1"
+          },
+          {
+            "from_uid": "8:1",
+            "observed_step": 56,
+            "slot": 8,
+            "to_uid": "8:2"
+          }
+        ],
+        "min_agent_distance_over_substeps_m": 1.8727485988762016,
+        "nominal_control": [
+          1.4,
+          0.0
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 1.8727485988762016,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          1.1312218027537597,
+          2.1588866615550217
+        ],
+        "post_respawn_endpoint_min_distance_m": 8.3862000852018,
+        "predictor_update_step": 55,
+        "realized_robot_endpoint": [
+          1.1312218027537597,
+          2.1588866615550217
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 53,
+        "constraint_horizon": 5,
+        "constraint_prediction_sha256": "2cf2de2e48fbdc98fc843a1eb89a460de1138c6fcc266945c0cd5a76990a373a",
+        "constraint_region_scales": [
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "control_step": 56,
+        "executed_control": [
+          0.6467156727579007,
+          0.26787840265556284
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "0d2b722815c9d516aa3ce1dbf974cbff62a36f48e9ca587f7a58538026675b4a",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.711963477804063,
+        "nominal_control": [
+          0.6467156727579007,
+          0.26787840265556284
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:0",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 1.711963477804063,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          1.4009775072807207,
+          2.454237063408757
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 56,
+        "realized_robot_endpoint": [
+          1.4009775072807207,
+          2.454237063408757
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 53,
+        "constraint_horizon": 4,
+        "constraint_prediction_sha256": "ce8df33042c4c796c1564e442f30111be520219fb2387572e3643bf356597975",
+        "constraint_region_scales": [
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "control_step": 57,
+        "executed_control": [
+          4.286263797015736e-17,
+          0.7
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "512198a13bda7e380c99bbf5334965b9d1d969e65e9ba71b75409a96eb774b09",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.5850182524441754,
+        "nominal_control": [
+          4.286263797015736e-17,
+          0.7
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:0",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 1.5850182524441754,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          1.6499964028116343,
+          2.7672699525251625
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 57,
+        "realized_robot_endpoint": [
+          1.6499964028116343,
+          2.7672699525251625
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 53,
+        "constraint_horizon": 3,
+        "constraint_prediction_sha256": "3090bd3614b55af104bca68e52d5770f0175af8934d0aa28de46be55b910482c",
+        "constraint_region_scales": [
+          0.3333333333333333,
+          0.6666666666666666,
+          1.0
+        ],
+        "control_step": 58,
+        "executed_control": [
+          -0.7653668647301795,
+          1.8477590650225735
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "49045b1623b16233f6390c9b1857b76a3eb5f9ad0f2c9700c22a9f49db333035",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.4741488959239313,
+        "nominal_control": [
+          -0.7653668647301795,
+          1.8477590650225735
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:0",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 1.4741488959239313,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          1.8199886455190963,
+          3.129350934377686
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 58,
+        "realized_robot_endpoint": [
+          1.8199886455190963,
+          3.129350934377686
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 53,
+        "constraint_horizon": 2,
+        "constraint_prediction_sha256": "e1f4397b744b58585121b2c63ff4e33d687cf44bbb4eca1111f84781356bd6ce",
+        "constraint_region_scales": [
+          0.5,
+          1.0
+        ],
+        "control_step": 59,
+        "executed_control": [
+          -2.0,
+          2.4492935982947064e-16
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "bb54fb88507381aa01dad7ed21ca6526cc8d783776073bd9170077b5389ece0b",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.389507098583901,
+        "nominal_control": [
+          -2.0,
+          2.4492935982947064e-16
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:0",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 1.389507098583901,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          1.8649808882265582,
+          3.4914319162302094
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 59,
+        "realized_robot_endpoint": [
+          1.8649808882265582,
+          3.4914319162302094
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 53,
+        "constraint_horizon": 1,
+        "constraint_prediction_sha256": "11e2156f2498de75da513729b8e099a6cf26099a84040c75b77ab13c17504eb5",
+        "constraint_region_scales": [
+          1.0
+        ],
+        "control_step": 60,
+        "executed_control": [
+          -1.8477590650225735,
+          0.7653668647301798
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "69752da21269466969e7c8fcd2229b254656c1757278f166e636680c5a675ed4",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [
+          {
+            "from_uid": "9:0",
+            "observed_step": 61,
+            "slot": 9,
+            "to_uid": "9:1"
+          }
+        ],
+        "min_agent_distance_over_substeps_m": 1.3827137989596556,
+        "nominal_control": [
+          -1.8477590650225735,
+          0.7653668647301798
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:0",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 1.3827137989596556,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          1.7971886116174094,
+          3.885645319391681
+        ],
+        "post_respawn_endpoint_min_distance_m": 10.775896481531651,
+        "predictor_update_step": 60,
+        "realized_robot_endpoint": [
+          1.7971886116174094,
+          3.885645319391681
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 61,
+        "constraint_horizon": 8,
+        "constraint_prediction_sha256": "e9e3a0672ce3ccb9803eff48775e45ce9a146141ec0b66c0d7fd5f61caf8c229",
+        "constraint_region_scales": [
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "control_step": 61,
+        "executed_control": [
+          1.847759065022573,
+          -0.7653668647301808
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "ea1e0b3bb4d9722e8641eb640f2b5b36d46a52bb2a4db5a4151f986ca0cfedfa",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.502006177202588,
+        "nominal_control": [
+          1.847759065022573,
+          -0.7653668647301808
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:1",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 1.502006177202588,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_identity_current_observation_evasive",
+        "planned_robot_endpoint": [
+          1.8448812765721716,
+          4.232023293507516
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 61,
+        "realized_robot_endpoint": [
+          1.8448812765721716,
+          4.232023293507516
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 61,
+        "constraint_horizon": 7,
+        "constraint_prediction_sha256": "ad6ebe3006a98fdf6b12c13430c109a02e190383e78f9b451c99616fa70f0e06",
+        "constraint_region_scales": [
+          0.14285714285714285,
+          0.2857142857142857,
+          0.42857142857142855,
+          0.5714285714285714,
+          0.7142857142857143,
+          0.8571428571428571,
+          1.0
+        ],
+        "control_step": 62,
+        "executed_control": [
+          -1.8477590650225737,
+          -0.7653668647301793
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "1edd4f37c01a0ac07b57de8223bf441d690b09aaef2d0a00211b7178fe664e35",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 1.7696864190506179,
+        "nominal_control": [
+          -1.8477590650225737,
+          -0.7653668647301793
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:1",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 1.7696864190506179,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_identity_current_observation_evasive",
+        "planned_robot_endpoint": [
+          1.7770889999630228,
+          4.530565838577715
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 62,
+        "realized_robot_endpoint": [
+          1.7770889999630228,
+          4.530565838577715
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 61,
+        "constraint_horizon": 6,
+        "constraint_prediction_sha256": "6d14d986ca2aed98316343e82219bddb3e5668c0ae17404ee878eccf1a77c5c6",
+        "constraint_region_scales": [
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334,
+          1.0
+        ],
+        "control_step": 63,
+        "executed_control": [
+          -1.8477590650225737,
+          -0.7653668647301793
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "e4d8e420fd8e0c3c0cb27e495f8c2f80b0b7e3a9af6ede7c0c9c023541faa81c",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.083937773332791,
+        "nominal_control": [
+          -1.8477590650225737,
+          -0.7653668647301793
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:1",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 2.083937773332791,
+        "observed_substep_collision": false,
+        "plan_status": "fallback_identity_current_observation_evasive",
+        "planned_robot_endpoint": [
+          1.5938117817899633,
+          4.781272954602278
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 63,
+        "realized_robot_endpoint": [
+          1.5938117817899633,
+          4.781272954602278
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 61,
+        "constraint_horizon": 5,
+        "constraint_prediction_sha256": "4ce8da13830edeee3a8267ff48ff9df84e42cf4acf171c6f8d3122c5da874dbb",
+        "constraint_region_scales": [
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "control_step": 64,
+        "executed_control": [
+          -1.4142135623730954,
+          -1.414213562373095
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "c149ddcf0ebbc439655eb98c192d7d6f8e934d139efae47a996e8bd16391f64b",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.4644470645582994,
+        "nominal_control": [
+          -1.4142135623730954,
+          -1.414213562373095
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:1",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 2.4644470645582994,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          1.3221462159685853,
+          4.943591722978522
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 64,
+        "realized_robot_endpoint": [
+          1.3221462159685853,
+          4.943591722978522
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 61,
+        "constraint_horizon": 4,
+        "constraint_prediction_sha256": "d31adb38b8bf26cc249b2e94724988b5db4a05bef5bcde125d7307caffd4c621",
+        "constraint_region_scales": [
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "control_step": 65,
+        "executed_control": [
+          -0.7653668647301807,
+          -1.847759065022573
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "4200d3bea7c4dae203ce314078654e4c70449e2b258079fd9c4b4a1c9a5d312c",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 2.889444494306158,
+        "nominal_control": [
+          -0.7653668647301807,
+          -1.847759065022573
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:1",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 2.889444494306158,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          1.002645221101571,
+          4.990425549790856
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 65,
+        "realized_robot_endpoint": [
+          1.002645221101571,
+          4.990425549790856
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 61,
+        "constraint_horizon": 3,
+        "constraint_prediction_sha256": "37c50e7f43008f1d8d3c1529e95f916b327b596c75b35eb4a591beace3ceefab",
+        "constraint_region_scales": [
+          0.3333333333333333,
+          0.6666666666666666,
+          1.0
+        ],
+        "control_step": 66,
+        "executed_control": [
+          -2.5717582782094415e-16,
+          -1.4
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "ca3df96d275c0ab2f0a64f57793cfd0058e00c68d4afd07efc72b1f294e9d91d",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 3.3380493313082296,
+        "nominal_control": [
+          -2.5717582782094415e-16,
+          -1.4
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:1",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 3.3380493313082296,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.6831442262345567,
+          4.949759376603189
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 66,
+        "realized_robot_endpoint": [
+          0.6831442262345567,
+          4.949759376603189
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 61,
+        "constraint_horizon": 2,
+        "constraint_prediction_sha256": "1154322d6e525fe629a04d189630982ef83ddbadd41574d203f0e661812cd66a",
+        "constraint_region_scales": [
+          0.5,
+          1.0
+        ],
+        "control_step": 67,
+        "executed_control": [
+          -0.7653668647301807,
+          -1.847759065022573
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "b83395ce09cfbcfb8509663e475f22feafb0cc7a58d72dd056579d77121372b3",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [
+          {
+            "from_uid": "2:0",
+            "observed_step": 68,
+            "slot": 2,
+            "to_uid": "2:1"
+          }
+        ],
+        "min_agent_distance_over_substeps_m": 3.809433963598143,
+        "nominal_control": [
+          -0.7653668647301807,
+          -1.847759065022573
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:1",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 3.809433963598143,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.3158078023219061,
+          4.793608261851611
+        ],
+        "post_respawn_endpoint_min_distance_m": 7.419667073375929,
+        "predictor_update_step": 67,
+        "realized_robot_endpoint": [
+          0.3158078023219061,
+          4.793608261851611
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      },
+      {
+        "constraint_anchor_step": 61,
+        "constraint_horizon": 1,
+        "constraint_prediction_sha256": "ca4f60acc93dbc7514ba2881900ab96fc3e36cffc482dad85236b8053205c951",
+        "constraint_region_scales": [
+          1.0
+        ],
+        "control_step": 68,
+        "executed_control": [
+          0.76536686473018,
+          -1.8477590650225733
+        ],
+        "fallback": true,
+        "fresh_prediction_sha256": "60818e91d0dd18a6436bf221ba0f38f176a19f944f76872e68c5e440b4afda62",
+        "identity_agent_speed_bound_mps": 2.2,
+        "identity_policy_fallback": true,
+        "identity_policy_input": "current_observation_speed_envelope",
+        "identity_transitions_observed_after_control": [],
+        "min_agent_distance_over_substeps_m": 4.183016878745796,
+        "nominal_control": [
+          0.76536686473018,
+          -1.8477590650225733
+        ],
+        "observed_agent_uids_at_plan": [
+          "0:1",
+          "1:1",
+          "2:1",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "9:1",
+          "10:1"
+        ],
+        "observed_step_min_distance_m": 4.183016878745796,
+        "observed_substep_collision": false,
+        "plan_status": "identity_speed_envelope_feasible_uncertified",
+        "planned_robot_endpoint": [
+          0.011060417116461052,
+          4.534515554099262
+        ],
+        "post_respawn_endpoint_min_distance_m": null,
+        "predictor_update_step": 68,
+        "realized_robot_endpoint": [
+          0.011060417116461052,
+          4.534515554099262
+        ],
+        "tracking_bound_satisfied": true,
+        "tracking_error_norm_m": 0.0,
+        "tracking_error_phase_rad": 0.07853981633974483,
+        "tracking_margin_m": 0.0,
+        "tracking_stress_contract": "projected_acceleration_endpoint_bound_v1"
+      }
+    ],
+    "episode_viol": true,
+    "execution_contract": "window_anchor_v1",
+    "fallback_labels": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "fallback_steps": 44,
+    "fallback_steps_active_window": 39,
+    "fallback_steps_warmup": 5,
+    "fallback_trace": [
+      {
+        "control_step": 0,
+        "reason": "fallback_no_active_window"
+      },
+      {
+        "control_step": 1,
+        "reason": "fallback_no_active_window"
+      },
+      {
+        "control_step": 2,
+        "reason": "fallback_no_active_window"
+      },
+      {
+        "control_step": 3,
+        "reason": "fallback_no_active_window"
+      },
+      {
+        "control_step": 4,
+        "reason": "fallback_no_active_window"
+      },
+      {
+        "control_step": 5,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 6,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 7,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 8,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 9,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 10,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 11,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 12,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 29,
+        "reason": "fallback_no_feasible_action"
+      },
+      {
+        "control_step": 30,
+        "reason": "fallback_no_feasible_action"
+      },
+      {
+        "control_step": 38,
+        "reason": "fallback_identity_current_observation_evasive"
+      },
+      {
+        "control_step": 39,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 40,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 41,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 42,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 43,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 44,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 47,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 48,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 49,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 50,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 51,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 52,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 53,
+        "reason": "fallback_identity_current_observation_evasive"
+      },
+      {
+        "control_step": 54,
+        "reason": "fallback_identity_current_observation_evasive"
+      },
+      {
+        "control_step": 55,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 56,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 57,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 58,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 59,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 60,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 61,
+        "reason": "fallback_identity_current_observation_evasive"
+      },
+      {
+        "control_step": 62,
+        "reason": "fallback_identity_current_observation_evasive"
+      },
+      {
+        "control_step": 63,
+        "reason": "fallback_identity_current_observation_evasive"
+      },
+      {
+        "control_step": 64,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 65,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 66,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 67,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      },
+      {
+        "control_step": 68,
+        "reason": "identity_speed_envelope_feasible_uncertified"
+      }
+    ],
+    "final_goal_distance_m": 9.134522250282615,
+    "goals": 2,
+    "identity_policy": "current_observation_speed_envelope_v2",
+    "identity_policy_contract": {
+      "agent_speed_bound_mps": 2.2,
+      "scope": "simulator_policy_not_statistical_or_continuous_time_theorem",
+      "transition_step_status": "observation_only_fallback_begins_next_control",
+      "uid_format": "slot:generation"
+    },
+    "identity_policy_fallback_labels": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "initial_goal_distance_m": 9.2,
+    "mean_radius": 1.4035976186425607,
+    "min_dist": 1.3340790489200962,
+    "n_attempted_windows": 8,
+    "n_coll_steps": 0,
+    "n_uncert": 0,
+    "n_unscored_identity_windows": 0,
+    "n_viol": 2,
+    "n_windows": 8,
+    "net_goal_progress_m": 0.06547774971738463,
+    "path_length_m": 25.298204317177497,
+    "positive_waypoint_progress_m": 18.2064667252942,
+    "predictor": {
+      "class": "Predictor",
+      "cv_only": false,
+      "model_id": "gru_sf.pt"
+    },
+    "predictor_update_steps": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "reached": false,
+    "selected_agent_endpoint_clearance_implication_labels": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "signed_waypoint_progress_m": 18.14711102855763,
+    "statistical_contract": {
+      "assumption_status": "exchangeability_required_not_established_by_this_record",
+      "finite_sample_construction": true,
+      "method": "spending_cs"
+    },
+    "steps": 69,
+    "tracking_bound_labels": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "tracking_contract": "projected_acceleration_endpoint_bound_v1_endpoint_error_at_most_0m_with_0m_margin",
+    "tracking_error_norm_labels": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tracking_stress": {
+      "acceleration_projection_radius_mps2": 2.0,
+      "contract": "projected_acceleration_endpoint_bound_v1",
+      "direction_sequence": "phase+t*(sqrt(5)-1)*pi",
+      "phase_rad": 0.07853981633974483,
+      "requested_endpoint_error_bound_m": 0.0,
+      "tracking_margin_m": 0.0
+    },
+    "waypoint_completion_count": 2,
+    "window_audit": [
+      {
+        "all_window_agents_in_score_event": false,
+        "anchor_eligible_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ],
+        "anchor_eligible_agent_uids": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "9:0",
+          "10:0"
+        ],
+        "anchor_prediction_sha256": "c3b05726d4cd4a1546d27b98b3d21f4b37c28ecc30c629bc979e18b9990417c6",
+        "attempted_window_index": 1,
+        "clean_agent_count": 10,
+        "constraint_control_steps": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "containment_violation": false,
+        "excluded_at_anchor_agent_indices": [
+          8
+        ],
+        "excluded_at_anchor_agent_uids": [
+          "8:1"
+        ],
+        "finite_sample_radius_available_under_declared_assumptions": true,
+        "identity_policy_triggered": true,
+        "identity_transition_records": [],
+        "identity_transition_steps": [],
+        "prediction_issued_step": 5,
+        "radius": 1.3725775447832778,
+        "score": 0.5531005157934633,
+        "score_observed_step": 13,
+        "score_selected_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ],
+        "score_selected_agent_uids": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "9:0",
+          "10:0"
+        ],
+        "score_selection_resolution": "retrospective_no_respawn_rule_identical_to_calibration",
+        "score_status": "scored",
+        "total_agent_count": 11,
+        "window_index": 1,
+        "within_window_identity_transition_indices": []
+      },
+      {
+        "all_window_agents_in_score_event": true,
+        "anchor_eligible_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "anchor_eligible_agent_uids": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "anchor_prediction_sha256": "2ef84aef0a4d0c21cae61988575bccd7bed7f8099b9fb8d46c524b8dfca07e6f",
+        "attempted_window_index": 2,
+        "clean_agent_count": 11,
+        "constraint_control_steps": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "containment_violation": false,
+        "excluded_at_anchor_agent_indices": [],
+        "excluded_at_anchor_agent_uids": [],
+        "finite_sample_radius_available_under_declared_assumptions": true,
+        "identity_policy_triggered": false,
+        "identity_transition_records": [],
+        "identity_transition_steps": [],
+        "prediction_issued_step": 13,
+        "radius": 1.3906145231631792,
+        "score": 0.39538879495005697,
+        "score_observed_step": 21,
+        "score_selected_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "score_selected_agent_uids": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "score_selection_resolution": "retrospective_no_respawn_rule_identical_to_calibration",
+        "score_status": "scored",
+        "total_agent_count": 11,
+        "window_index": 2,
+        "within_window_identity_transition_indices": []
+      },
+      {
+        "all_window_agents_in_score_event": true,
+        "anchor_eligible_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "anchor_eligible_agent_uids": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "anchor_prediction_sha256": "c2dd796efa17f8e3fb52b0f1cbc9bf9ee2451388d16f8263ec1b0d7f149d9f36",
+        "attempted_window_index": 3,
+        "clean_agent_count": 11,
+        "constraint_control_steps": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "containment_violation": false,
+        "excluded_at_anchor_agent_indices": [],
+        "excluded_at_anchor_agent_uids": [],
+        "finite_sample_radius_available_under_declared_assumptions": true,
+        "identity_policy_triggered": false,
+        "identity_transition_records": [],
+        "identity_transition_steps": [],
+        "prediction_issued_step": 21,
+        "radius": 1.4021588732755979,
+        "score": 1.2070122418038265,
+        "score_observed_step": 29,
+        "score_selected_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "score_selected_agent_uids": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "score_selection_resolution": "retrospective_no_respawn_rule_identical_to_calibration",
+        "score_status": "scored",
+        "total_agent_count": 11,
+        "window_index": 3,
+        "within_window_identity_transition_indices": []
+      },
+      {
+        "all_window_agents_in_score_event": true,
+        "anchor_eligible_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "anchor_eligible_agent_uids": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "anchor_prediction_sha256": "dddac08cc3a846972d1e9908952a37b6708f5a8067a9ed65f071a0aee0b80146",
+        "attempted_window_index": 4,
+        "clean_agent_count": 11,
+        "constraint_control_steps": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "containment_violation": false,
+        "excluded_at_anchor_agent_indices": [],
+        "excluded_at_anchor_agent_uids": [],
+        "finite_sample_radius_available_under_declared_assumptions": true,
+        "identity_policy_triggered": false,
+        "identity_transition_records": [],
+        "identity_transition_steps": [],
+        "prediction_issued_step": 29,
+        "radius": 1.4057292864285986,
+        "score": 0.1884870535717491,
+        "score_observed_step": 37,
+        "score_selected_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "score_selected_agent_uids": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "score_selection_resolution": "retrospective_no_respawn_rule_identical_to_calibration",
+        "score_status": "scored",
+        "total_agent_count": 11,
+        "window_index": 4,
+        "within_window_identity_transition_indices": []
+      },
+      {
+        "all_window_agents_in_score_event": false,
+        "anchor_eligible_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "anchor_eligible_agent_uids": [
+          "0:0",
+          "1:0",
+          "2:0",
+          "3:0",
+          "4:0",
+          "5:0",
+          "6:0",
+          "7:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "anchor_prediction_sha256": "b41b00558c4a80f55cc8dcc5d6d45f8ae24b4fc976fee594715d7d993ad39fe7",
+        "attempted_window_index": 5,
+        "clean_agent_count": 7,
+        "constraint_control_steps": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "containment_violation": false,
+        "excluded_at_anchor_agent_indices": [],
+        "excluded_at_anchor_agent_uids": [],
+        "finite_sample_radius_available_under_declared_assumptions": true,
+        "identity_policy_triggered": true,
+        "identity_transition_records": [
+          {
+            "from_uid": "6:0",
+            "observed_step": 38,
+            "slot": 6,
+            "to_uid": "6:1"
+          },
+          {
+            "from_uid": "1:0",
+            "observed_step": 40,
+            "slot": 1,
+            "to_uid": "1:1"
+          },
+          {
+            "from_uid": "3:0",
+            "observed_step": 40,
+            "slot": 3,
+            "to_uid": "3:1"
+          },
+          {
+            "from_uid": "7:0",
+            "observed_step": 40,
+            "slot": 7,
+            "to_uid": "7:1"
+          }
+        ],
+        "identity_transition_steps": [
+          38,
+          40
+        ],
+        "prediction_issued_step": 37,
+        "radius": 1.4091207935643428,
+        "score": 0.6021167151743069,
+        "score_observed_step": 45,
+        "score_selected_agent_indices": [
+          0,
+          2,
+          4,
+          5,
+          8,
+          9,
+          10
+        ],
+        "score_selected_agent_uids": [
+          "0:0",
+          "2:0",
+          "4:0",
+          "5:0",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "score_selection_resolution": "retrospective_no_respawn_rule_identical_to_calibration",
+        "score_status": "scored",
+        "total_agent_count": 11,
+        "window_index": 5,
+        "within_window_identity_transition_indices": [
+          1,
+          3,
+          6,
+          7
+        ]
+      },
+      {
+        "all_window_agents_in_score_event": false,
+        "anchor_eligible_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "anchor_eligible_agent_uids": [
+          "0:0",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "5:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0",
+          "10:0"
+        ],
+        "anchor_prediction_sha256": "21cfee63d673213830a0da6b721d20b0e619b2ec2b3009c7d50a3f5ec94822b1",
+        "attempted_window_index": 6,
+        "clean_agent_count": 8,
+        "constraint_control_steps": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52
+        ],
+        "containment_violation": true,
+        "excluded_at_anchor_agent_indices": [],
+        "excluded_at_anchor_agent_uids": [],
+        "finite_sample_radius_available_under_declared_assumptions": true,
+        "identity_policy_triggered": true,
+        "identity_transition_records": [
+          {
+            "from_uid": "0:0",
+            "observed_step": 47,
+            "slot": 0,
+            "to_uid": "0:1"
+          },
+          {
+            "from_uid": "10:0",
+            "observed_step": 51,
+            "slot": 10,
+            "to_uid": "10:1"
+          },
+          {
+            "from_uid": "5:0",
+            "observed_step": 52,
+            "slot": 5,
+            "to_uid": "5:1"
+          }
+        ],
+        "identity_transition_steps": [
+          47,
+          51,
+          52
+        ],
+        "prediction_issued_step": 45,
+        "radius": 1.413052070980025,
+        "score": 1.479312920251873,
+        "score_observed_step": 53,
+        "score_selected_agent_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ],
+        "score_selected_agent_uids": [
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0"
+        ],
+        "score_selection_resolution": "retrospective_no_respawn_rule_identical_to_calibration",
+        "score_status": "scored",
+        "total_agent_count": 11,
+        "window_index": 6,
+        "within_window_identity_transition_indices": [
+          0,
+          5,
+          10
+        ]
+      },
+      {
+        "all_window_agents_in_score_event": false,
+        "anchor_eligible_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchor_eligible_agent_uids": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:0",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:0"
+        ],
+        "anchor_prediction_sha256": "02ff7fe0b08c5077b6e58cc699d5acd164254447a1065a1527a5e11f0119db57",
+        "attempted_window_index": 7,
+        "clean_agent_count": 6,
+        "constraint_control_steps": [
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "containment_violation": false,
+        "excluded_at_anchor_agent_indices": [
+          5,
+          10
+        ],
+        "excluded_at_anchor_agent_uids": [
+          "5:1",
+          "10:1"
+        ],
+        "finite_sample_radius_available_under_declared_assumptions": true,
+        "identity_policy_triggered": true,
+        "identity_transition_records": [
+          {
+            "from_uid": "4:0",
+            "observed_step": 56,
+            "slot": 4,
+            "to_uid": "4:1"
+          },
+          {
+            "from_uid": "8:1",
+            "observed_step": 56,
+            "slot": 8,
+            "to_uid": "8:2"
+          },
+          {
+            "from_uid": "9:0",
+            "observed_step": 61,
+            "slot": 9,
+            "to_uid": "9:1"
+          }
+        ],
+        "identity_transition_steps": [
+          56,
+          61
+        ],
+        "prediction_issued_step": 53,
+        "radius": 1.4168933676538449,
+        "score": 0.6371782681316333,
+        "score_observed_step": 61,
+        "score_selected_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        "score_selected_agent_uids": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "6:1",
+          "7:1"
+        ],
+        "score_selection_resolution": "retrospective_no_respawn_rule_identical_to_calibration",
+        "score_status": "scored",
+        "total_agent_count": 11,
+        "window_index": 7,
+        "within_window_identity_transition_indices": [
+          4,
+          8,
+          9
+        ]
+      },
+      {
+        "all_window_agents_in_score_event": false,
+        "anchor_eligible_agent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10
+        ],
+        "anchor_eligible_agent_uids": [
+          "0:1",
+          "1:1",
+          "2:0",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "10:1"
+        ],
+        "anchor_prediction_sha256": "ea1e0b3bb4d9722e8641eb640f2b5b36d46a52bb2a4db5a4151f986ca0cfedfa",
+        "attempted_window_index": 8,
+        "clean_agent_count": 9,
+        "constraint_control_steps": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "containment_violation": true,
+        "excluded_at_anchor_agent_indices": [
+          9
+        ],
+        "excluded_at_anchor_agent_uids": [
+          "9:1"
+        ],
+        "finite_sample_radius_available_under_declared_assumptions": true,
+        "identity_policy_triggered": true,
+        "identity_transition_records": [
+          {
+            "from_uid": "2:0",
+            "observed_step": 68,
+            "slot": 2,
+            "to_uid": "2:1"
+          }
+        ],
+        "identity_transition_steps": [
+          68
+        ],
+        "prediction_issued_step": 61,
+        "radius": 1.4186344892916192,
+        "score": 1.6541649113798171,
+        "score_observed_step": 69,
+        "score_selected_agent_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10
+        ],
+        "score_selected_agent_uids": [
+          "0:1",
+          "1:1",
+          "3:1",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:2",
+          "10:1"
+        ],
+        "score_selection_resolution": "retrospective_no_respawn_rule_identical_to_calibration",
+        "score_status": "scored",
+        "total_agent_count": 11,
+        "window_index": 8,
+        "within_window_identity_transition_indices": [
+          2
+        ]
+      }
+    ],
+    "windows": [
+      [
+        0.5531005157934633,
+        1.3725775447832778
+      ],
+      [
+        0.39538879495005697,
+        1.3906145231631792
+      ],
+      [
+        1.2070122418038265,
+        1.4021588732755979
+      ],
+      [
+        0.1884870535717491,
+        1.4057292864285986
+      ],
+      [
+        0.6021167151743069,
+        1.4091207935643428
+      ],
+      [
+        1.479312920251873,
+        1.413052070980025
+      ],
+      [
+        0.6371782681316333,
+        1.4168933676538449
+      ],
+      [
+        1.6541649113798171,
+        1.4186344892916192
+      ]
+    ]
+  },
+  "study_id": "p20_window_anchor_v1_revised_20260908",
+  "trace": {
+    "bytes": 203285,
+    "path": "traces/sf__spending_cs__track-0.00m__seed-00.npz",
+    "sha256": "3a425ccb998576ad454ff1766c7d31aeef1da0806451a878c66808fce1c938eb"
+  }
+}

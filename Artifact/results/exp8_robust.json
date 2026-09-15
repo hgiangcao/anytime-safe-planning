@@ -1,0 +1,336 @@
+{
+ "validity": [
+  {
+   "scenario": "exchangeable",
+   "true_shift_budget": 0.0,
+   "plain_cs_fail": 0.036875,
+   "robust_cs_fail": 0.036875,
+   "target": 0.05
+  },
+  {
+   "scenario": "persistent_0.01",
+   "true_shift_budget": 30.00000000000003,
+   "plain_cs_fail": 0.509625,
+   "robust_cs_fail": 0.0,
+   "target": 0.05
+  },
+  {
+   "scenario": "persistent_0.003",
+   "true_shift_budget": 9.000000000000007,
+   "plain_cs_fail": 0.08425,
+   "robust_cs_fail": 0.0,
+   "target": 0.05
+  },
+  {
+   "scenario": "transient_0.04_first500",
+   "true_shift_budget": 20.000000000000018,
+   "plain_cs_fail": 0.999625,
+   "robust_cs_fail": 0.001125,
+   "target": 0.05
+  }
+ ],
+ "price": [
+  {
+   "delta": 0.05,
+   "rho_tot": 0.0,
+   "n": 2094,
+   "radius": 1.7212391662908317,
+   "plugin_quantile": 1.6158311492991833,
+   "premium_vs_plugin_pct": 6.5234549437523714,
+   "premium_vs_cs_pct": 0.0,
+   "eff_delta": 0.05
+  },
+  {
+   "delta": 0.05,
+   "rho_tot": 0.5,
+   "n": 2094,
+   "radius": 1.7217498652192327,
+   "plugin_quantile": 1.6158311492991833,
+   "premium_vs_plugin_pct": 6.55506090261897,
+   "premium_vs_cs_pct": 0.029670422240135608,
+   "eff_delta": 0.029538875695061584
+  },
+  {
+   "delta": 0.05,
+   "rho_tot": 1.0,
+   "n": 2094,
+   "radius": 1.7250833791520521,
+   "plugin_quantile": 1.6158311492991833,
+   "premium_vs_plugin_pct": 6.761364261374325,
+   "premium_vs_cs_pct": 0.22333984355611403,
+   "eff_delta": 0.017450903546566
+  },
+  {
+   "delta": 0.05,
+   "rho_tot": 2.0,
+   "n": 2094,
+   "radius": 1.7266679865170689,
+   "plugin_quantile": 1.6158311492991833,
+   "premium_vs_plugin_pct": 6.8594318945985,
+   "premium_vs_cs_pct": 0.31540185306937474,
+   "eff_delta": 0.0060906806918309955
+  },
+  {
+   "delta": 0.05,
+   "rho_tot": 5.0,
+   "n": 2094,
+   "radius": 1.7648715928064322,
+   "plugin_quantile": 1.6158311492991833,
+   "premium_vs_plugin_pct": 9.223763483696334,
+   "premium_vs_cs_pct": 2.5349426953620746,
+   "eff_delta": 0.00025894621852988757
+  },
+  {
+   "delta": 0.05,
+   "rho_tot": 10.0,
+   "n": 2094,
+   "radius": 1.8225876181549778,
+   "plugin_quantile": 1.6158311492991833,
+   "premium_vs_plugin_pct": 12.795672923217793,
+   "premium_vs_cs_pct": 5.888109790259177,
+   "eff_delta": 1.341062881818566e-06
+  },
+  {
+   "delta": 0.05,
+   "rho_tot": 20.0,
+   "n": 2094,
+   "radius": 1.8849308222919272,
+   "plugin_quantile": 1.6158311492991833,
+   "premium_vs_plugin_pct": 16.653947605197338,
+   "premium_vs_cs_pct": 9.510105231560662,
+   "eff_delta": 3.596899305983033e-11
+  },
+  {
+   "delta": 0.1,
+   "rho_tot": 0.0,
+   "n": 2094,
+   "radius": 1.4133650597946832,
+   "plugin_quantile": 1.3418214429884598,
+   "premium_vs_plugin_pct": 5.331828402360594,
+   "premium_vs_cs_pct": 0.0,
+   "eff_delta": 0.1
+  },
+  {
+   "delta": 0.1,
+   "rho_tot": 0.5,
+   "n": 2094,
+   "radius": 1.4186344892916192,
+   "plugin_quantile": 1.3418214429884598,
+   "premium_vs_plugin_pct": 5.72453560826125,
+   "premium_vs_cs_pct": 0.3728286234627509,
+   "eff_delta": 0.05737534207374328
+  },
+  {
+   "delta": 0.1,
+   "rho_tot": 1.0,
+   "n": 2094,
+   "radius": 1.4193183075584062,
+   "plugin_quantile": 1.3418214429884598,
+   "premium_vs_plugin_pct": 5.775497550355713,
+   "premium_vs_cs_pct": 0.4212109053118862,
+   "eff_delta": 0.03291929878079056
+  },
+  {
+   "delta": 0.1,
+   "rho_tot": 2.0,
+   "n": 2094,
+   "radius": 1.4427056150321111,
+   "plugin_quantile": 1.3418214429884598,
+   "premium_vs_plugin_pct": 7.518449833307583,
+   "premium_vs_cs_pct": 2.0759360813468852,
+   "eff_delta": 0.010836802322189587
+  },
+  {
+   "delta": 0.1,
+   "rho_tot": 5.0,
+   "n": 2094,
+   "radius": 1.4765735279904486,
+   "plugin_quantile": 1.3418214429884598,
+   "premium_vs_plugin_pct": 10.042475152422181,
+   "premium_vs_cs_pct": 4.4721968862699635,
+   "eff_delta": 0.0003865920139472808
+  },
+  {
+   "delta": 0.1,
+   "rho_tot": 10.0,
+   "n": 2094,
+   "radius": 1.5217123626169995,
+   "plugin_quantile": 1.3418214429884598,
+   "premium_vs_plugin_pct": 13.40647226712166,
+   "premium_vs_cs_pct": 7.665910662745246,
+   "eff_delta": 1.4945338524781453e-06
+  },
+  {
+   "delta": 0.1,
+   "rho_tot": 20.0,
+   "n": 2094,
+   "radius": 1.5838041209699623,
+   "plugin_quantile": 1.3418214429884598,
+   "premium_vs_plugin_pct": 18.033895586179227,
+   "premium_vs_cs_pct": 12.059096833767668,
+   "eff_delta": 2.2336314362031663e-11
+  }
+ ],
+ "measured_budget": [
+  {
+   "regime": "replay",
+   "delta": 0.05,
+   "n_windows": 1087,
+   "beta": 0.95,
+   "p_hat": 0.9356025758969642,
+   "excess_per_window": 0.0,
+   "budget_over_120_windows": 0.0,
+   "budget_over_deployment": 0.0
+  },
+  {
+   "regime": "replay",
+   "delta": 0.1,
+   "n_windows": 920,
+   "beta": 0.9,
+   "p_hat": 0.8880434782608696,
+   "excess_per_window": 0.0,
+   "budget_over_120_windows": 0.0,
+   "budget_over_deployment": 0.0
+  },
+  {
+   "regime": "sf",
+   "delta": 0.05,
+   "n_windows": 1026,
+   "beta": 0.95,
+   "p_hat": 0.9590643274853801,
+   "excess_per_window": 0.009064327485380108,
+   "budget_over_120_windows": 1.087719298245613,
+   "budget_over_deployment": 9.29999999999999
+  },
+  {
+   "regime": "sf",
+   "delta": 0.1,
+   "n_windows": 933,
+   "beta": 0.9,
+   "p_hat": 0.9121114683815649,
+   "excess_per_window": 0.01211146838156485,
+   "budget_over_120_windows": 1.453376205787782,
+   "budget_over_deployment": 11.300000000000004
+  },
+  {
+   "regime": "orca",
+   "delta": 0.05,
+   "n_windows": 1180,
+   "beta": 0.95,
+   "p_hat": 0.9364406779661016,
+   "excess_per_window": 0.0,
+   "budget_over_120_windows": 0.0,
+   "budget_over_deployment": 0.0
+  },
+  {
+   "regime": "orca",
+   "delta": 0.1,
+   "n_windows": 1010,
+   "beta": 0.9,
+   "p_hat": 0.8633663366336634,
+   "excess_per_window": 0.0,
+   "budget_over_120_windows": 0.0,
+   "budget_over_deployment": 0.0
+  },
+  {
+   "regime": "real_eth",
+   "delta": 0.05,
+   "n_windows": 75,
+   "beta": 0.95,
+   "p_hat": 0.84,
+   "excess_per_window": 0.0,
+   "budget_over_120_windows": 0.0,
+   "budget_over_deployment": 0.0
+  },
+  {
+   "regime": "real_eth",
+   "delta": 0.1,
+   "n_windows": 60,
+   "beta": 0.9,
+   "p_hat": 0.7333333333333333,
+   "excess_per_window": 0.0,
+   "budget_over_120_windows": 0.0,
+   "budget_over_deployment": 0.0
+  },
+  {
+   "regime": "real_hotel",
+   "delta": 0.05,
+   "n_windows": 96,
+   "beta": 0.95,
+   "p_hat": 1.0,
+   "excess_per_window": 0.050000000000000044,
+   "budget_over_120_windows": 6.000000000000005,
+   "budget_over_deployment": 4.800000000000004
+  },
+  {
+   "regime": "real_hotel",
+   "delta": 0.1,
+   "n_windows": 82,
+   "beta": 0.9,
+   "p_hat": 0.9634146341463414,
+   "excess_per_window": 0.06341463414634141,
+   "budget_over_120_windows": 7.609756097560969,
+   "budget_over_deployment": 5.199999999999996
+  },
+  {
+   "regime": "real_univ",
+   "delta": 0.05,
+   "n_windows": 83,
+   "beta": 0.95,
+   "p_hat": 0.7590361445783133,
+   "excess_per_window": 0.0,
+   "budget_over_120_windows": 0.0,
+   "budget_over_deployment": 0.0
+  },
+  {
+   "regime": "real_univ",
+   "delta": 0.1,
+   "n_windows": 79,
+   "beta": 0.9,
+   "p_hat": 0.4936708860759494,
+   "excess_per_window": 0.0,
+   "budget_over_120_windows": 0.0,
+   "budget_over_deployment": 0.0
+  },
+  {
+   "regime": "real_zara1",
+   "delta": 0.05,
+   "n_windows": 59,
+   "beta": 0.95,
+   "p_hat": 1.0,
+   "excess_per_window": 0.050000000000000044,
+   "budget_over_120_windows": 6.000000000000005,
+   "budget_over_deployment": 2.950000000000003
+  },
+  {
+   "regime": "real_zara1",
+   "delta": 0.1,
+   "n_windows": 55,
+   "beta": 0.9,
+   "p_hat": 1.0,
+   "excess_per_window": 0.09999999999999998,
+   "budget_over_120_windows": 11.999999999999996,
+   "budget_over_deployment": 5.499999999999999
+  },
+  {
+   "regime": "real_zara2",
+   "delta": 0.05,
+   "n_windows": 92,
+   "beta": 0.95,
+   "p_hat": 1.0,
+   "excess_per_window": 0.050000000000000044,
+   "budget_over_120_windows": 6.000000000000005,
+   "budget_over_deployment": 4.600000000000004
+  },
+  {
+   "regime": "real_zara2",
+   "delta": 0.1,
+   "n_windows": 73,
+   "beta": 0.9,
+   "p_hat": 0.9726027397260274,
+   "excess_per_window": 0.07260273972602738,
+   "budget_over_120_windows": 8.712328767123285,
+   "budget_over_deployment": 5.299999999999999
+  }
+ ]
+}

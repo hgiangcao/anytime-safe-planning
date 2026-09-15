@@ -1,0 +1,84 @@
+{
+ "source": "results/window_anchor_v1_study/attempts (320 frozen records)",
+ "warmup_controls_excluded_per_attempt": 5,
+ "episodes": 320,
+ "collision_episodes": 29,
+ "active_controls": 20480,
+ "colliding_controls": 79,
+ "colliding_controls_all_including_warmup": 79,
+ "fallback_controls": 12550,
+ "anchored_controls": 7930,
+ "fallback_collision_controls": 75,
+ "anchored_collision_controls": 4,
+ "fallback_collision_rate_pct": 0.5976095617529881,
+ "anchored_collision_rate_pct": 0.05044136191677175,
+ "first_contact_under_fallback_episodes": 25,
+ "first_contact_under_anchored_episodes": 4,
+ "by_cell": {
+  "orca__cs__track-0.00m": {
+   "fallback_controls": 1473,
+   "fallback_collision_controls": 6,
+   "anchored_controls": 1087,
+   "anchored_collision_controls": 1,
+   "episodes": 40,
+   "collision_episodes": 3
+  },
+  "orca__cs__track-0.10m": {
+   "fallback_controls": 1695,
+   "fallback_collision_controls": 5,
+   "anchored_controls": 865,
+   "anchored_collision_controls": 0,
+   "episodes": 40,
+   "collision_episodes": 2
+  },
+  "orca__spending_cs__track-0.00m": {
+   "fallback_controls": 1451,
+   "fallback_collision_controls": 8,
+   "anchored_controls": 1109,
+   "anchored_collision_controls": 2,
+   "episodes": 40,
+   "collision_episodes": 4
+  },
+  "orca__spending_cs__track-0.10m": {
+   "fallback_controls": 1636,
+   "fallback_collision_controls": 3,
+   "anchored_controls": 924,
+   "anchored_collision_controls": 0,
+   "episodes": 40,
+   "collision_episodes": 1
+  },
+  "sf__cs__track-0.00m": {
+   "fallback_controls": 1505,
+   "fallback_collision_controls": 8,
+   "anchored_controls": 1055,
+   "anchored_collision_controls": 1,
+   "episodes": 40,
+   "collision_episodes": 4
+  },
+  "sf__cs__track-0.10m": {
+   "fallback_controls": 1643,
+   "fallback_collision_controls": 15,
+   "anchored_controls": 917,
+   "anchored_collision_controls": 0,
+   "episodes": 40,
+   "collision_episodes": 5
+  },
+  "sf__spending_cs__track-0.00m": {
+   "fallback_controls": 1512,
+   "fallback_collision_controls": 6,
+   "anchored_controls": 1048,
+   "anchored_collision_controls": 0,
+   "episodes": 40,
+   "collision_episodes": 3
+  },
+  "sf__spending_cs__track-0.10m": {
+   "fallback_controls": 1635,
+   "fallback_collision_controls": 24,
+   "anchored_controls": 925,
+   "anchored_collision_controls": 0,
+   "episodes": 40,
+   "collision_episodes": 7
+  }
+ },
+ "interpretation": "Association only. Fallback is entered exactly when no active window certifies a constraint, so the split localises residual risk and does not attribute cause."
+}

@@ -1,0 +1,687 @@
+{
+ "conditions": {
+  "uni_sf|cs|0.05": {
+   "n_episodes": 150,
+   "total_windows": 1010,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.033663366336633666,
+   "window_viol_ci": [
+    0.024188321818163494,
+    0.04667245169911968
+   ],
+   "window_viol_rate_all": 0.033663366336633666,
+   "episode_viol_rate": 0.22,
+   "episode_viol_ci": [
+    0.16115929476762675,
+    0.2928245431539757
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.1,
+   "collision_ci": [
+    0.06154083683597322,
+    0.15843607448060176
+   ],
+   "coll_step_frac": 0.0035141664836371624,
+   "success_rate": 0.4666666666666667,
+   "success_ci": [
+    0.3886591247406171,
+    0.5463389512024308
+   ],
+   "timeout_rate": 0.5333333333333333,
+   "mean_task_time_s": 12.807142857142857,
+   "fallback_step_frac": 0.19887985943334066,
+   "mean_min_dist": 1.2728936726382054,
+   "mean_goals": 0.4666666666666667,
+   "mean_radius": 1.711523304308336
+  },
+  "uni_sf|aucb|0.05": {
+   "n_episodes": 150,
+   "total_windows": 1116,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.0017921146953405018,
+   "window_viol_ci": [
+    0.0004915898491369923,
+    0.006510829064395065
+   ],
+   "window_viol_rate_all": 0.0017921146953405018,
+   "episode_viol_rate": 0.013333333333333334,
+   "episode_viol_ci": [
+    0.0036640523882232085,
+    0.047307856380276334
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.12,
+   "collision_ci": [
+    0.07726840439679382,
+    0.1817096613539524
+   ],
+   "coll_step_frac": 0.003257328990228013,
+   "success_rate": 0.21333333333333335,
+   "success_ci": [
+    0.1553614367018253,
+    0.28562201640838675
+   ],
+   "timeout_rate": 0.7866666666666666,
+   "mean_task_time_s": 13.140625,
+   "fallback_step_frac": 0.33662459283387625,
+   "mean_min_dist": 1.3198951989256946,
+   "mean_goals": 0.21333333333333335,
+   "mean_radius": 2.353309186490702
+  },
+  "uni_sf|union|0.05": {
+   "n_episodes": 150,
+   "total_windows": 1086,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.004604051565377533,
+   "window_viol_ci": [
+    0.0019681017287318777,
+    0.010732459527142371
+   ],
+   "window_viol_rate_all": 0.004604051565377533,
+   "episode_viol_rate": 0.03333333333333333,
+   "episode_viol_ci": [
+    0.014320220695575196,
+    0.0756528425070956
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.10666666666666667,
+   "collision_ci": [
+    0.06672979536363804,
+    0.16624750076432737
+   ],
+   "coll_step_frac": 0.003424657534246575,
+   "success_rate": 0.30666666666666664,
+   "success_ci": [
+    0.2384689020846879,
+    0.38451993838498993
+   ],
+   "timeout_rate": 0.6933333333333334,
+   "mean_task_time_s": 13.369565217391305,
+   "fallback_step_frac": 0.3106060606060606,
+   "mean_min_dist": 1.3209514399797828,
+   "mean_goals": 0.30666666666666664,
+   "mean_radius": 2.1389483201267514
+  },
+  "uni_sf|aci|0.05": {
+   "n_episodes": 150,
+   "total_windows": 962,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.05197505197505198,
+   "window_viol_ci": [
+    0.03964466051424009,
+    0.06786944945990062
+   ],
+   "window_viol_rate_all": 0.05197505197505198,
+   "episode_viol_rate": 0.29333333333333333,
+   "episode_viol_ci": [
+    0.22636309522530063,
+    0.37062497562159646
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.08,
+   "collision_ci": [
+    0.0463531819392169,
+    0.13462257494318683
+   ],
+   "coll_step_frac": 0.0031876138433515485,
+   "success_rate": 0.5733333333333334,
+   "success_ci": [
+    0.49332380166580925,
+    0.6496804312594854
+   ],
+   "timeout_rate": 0.42666666666666664,
+   "mean_task_time_s": 12.69767441860465,
+   "fallback_step_frac": 0.1687158469945355,
+   "mean_min_dist": 1.2497411122598066,
+   "mean_goals": 0.5733333333333334,
+   "mean_radius": 1.6181147427190965
+  },
+  "uni_sf|gauss|0.05": {
+   "n_episodes": 150,
+   "total_windows": 1018,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.03241650294695481,
+   "window_viol_ci": [
+    0.023173969872413155,
+    0.045174783985327614
+   ],
+   "window_viol_rate_all": 0.03241650294695481,
+   "episode_viol_rate": 0.20666666666666667,
+   "episode_viol_ci": [
+    0.14958803521394032,
+    0.27839503308488134
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.12666666666666668,
+   "collision_ci": [
+    0.082610643407449,
+    0.18936780715468765
+   ],
+   "coll_step_frac": 0.004273972602739726,
+   "success_rate": 0.44,
+   "success_ci": [
+    0.36304360950970455,
+    0.5199529271877817
+   ],
+   "timeout_rate": 0.56,
+   "mean_task_time_s": 12.609848484848484,
+   "fallback_step_frac": 0.20295890410958903,
+   "mean_min_dist": 1.2588381651648546,
+   "mean_goals": 0.44,
+   "mean_radius": 1.7199664944783406
+  },
+  "uni_sf|uncal|0.05": {
+   "n_episodes": 150,
+   "total_windows": 474,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 1.0,
+   "window_viol_ci": [
+    0.9919605157859842,
+    1.0
+   ],
+   "window_viol_rate_all": 1.0,
+   "episode_viol_rate": 1.0,
+   "episode_viol_ci": [
+    0.9750288608542813,
+    1.0
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.32,
+   "collision_ci": [
+    0.2506441235970241,
+    0.39834548649543466
+   ],
+   "coll_step_frac": 0.02730236348818256,
+   "success_rate": 1.0,
+   "success_ci": [
+    0.9750288608542813,
+    1.0
+   ],
+   "timeout_rate": 0.0,
+   "mean_task_time_s": 8.18,
+   "fallback_step_frac": 0.0032599837000814994,
+   "mean_min_dist": 0.7532294583265033,
+   "mean_goals": 1.0,
+   "mean_radius": 0.0
+  },
+  "uni_replay|cs|0.05": {
+   "n_episodes": 150,
+   "total_windows": 1032,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.03391472868217054,
+   "window_viol_ci": [
+    0.024485291474519867,
+    0.04680128361572559
+   ],
+   "window_viol_rate_all": 0.03391472868217054,
+   "episode_viol_rate": 0.2,
+   "episode_viol_ci": [
+    0.1438399280560674,
+    0.27114275543136385
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.11333333333333333,
+   "collision_ci": [
+    0.07197363837164525,
+    0.17400404256771052
+   ],
+   "coll_step_frac": 0.005088783022953659,
+   "success_rate": 0.3933333333333333,
+   "success_ci": [
+    0.31875856694108035,
+    0.47323527607667293
+   ],
+   "timeout_rate": 0.6066666666666667,
+   "mean_task_time_s": 12.529661016949152,
+   "fallback_step_frac": 0.2272628843655262,
+   "mean_min_dist": 1.3549968860768231,
+   "mean_goals": 0.3933333333333333,
+   "mean_radius": 1.8370727224450403
+  },
+  "uni_replay|aucb|0.05": {
+   "n_episodes": 150,
+   "total_windows": 1180,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.005084745762711864,
+   "window_viol_ci": [
+    0.002332373961460653,
+    0.011049145998642115
+   ],
+   "window_viol_rate_all": 0.005084745762711864,
+   "episode_viol_rate": 0.04,
+   "episode_viol_ci": [
+    0.01845890888690357,
+    0.08451453912715763
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.10666666666666667,
+   "collision_ci": [
+    0.06672979536363804,
+    0.16624750076432737
+   ],
+   "coll_step_frac": 0.004095563139931741,
+   "success_rate": 0.03333333333333333,
+   "success_ci": [
+    0.014320220695575196,
+    0.0756528425070956
+   ],
+   "timeout_rate": 0.9666666666666667,
+   "mean_task_time_s": 12.5,
+   "fallback_step_frac": 0.5849829351535836,
+   "mean_min_dist": 1.7540494718124584,
+   "mean_goals": 0.03333333333333333,
+   "mean_radius": 3.5583587901586617
+  },
+  "uni_replay|union|0.05": {
+   "n_episodes": 150,
+   "total_windows": 1145,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.0069868995633187774,
+   "window_viol_ci": [
+    0.0035445080409411646,
+    0.01372645429189915
+   ],
+   "window_viol_rate_all": 0.0069868995633187774,
+   "episode_viol_rate": 0.05333333333333334,
+   "episode_viol_ci": [
+    0.02726921289013246,
+    0.10170500474670958
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.10666666666666667,
+   "collision_ci": [
+    0.06672979536363804,
+    0.16624750076432737
+   ],
+   "coll_step_frac": 0.006069651741293532,
+   "success_rate": 0.16,
+   "success_ci": [
+    0.10993931727556672,
+    0.227041057343522
+   ],
+   "timeout_rate": 0.84,
+   "mean_task_time_s": 14.125,
+   "fallback_step_frac": 0.4247761194029851,
+   "mean_min_dist": 1.6249520538392488,
+   "mean_goals": 0.16,
+   "mean_radius": 2.803486086652811
+  },
+  "uni_replay|aci|0.05": {
+   "n_episodes": 150,
+   "total_windows": 989,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.04044489383215369,
+   "window_viol_ci": [
+    0.02984056883559966,
+    0.05460553011915807
+   ],
+   "window_viol_rate_all": 0.04044489383215369,
+   "episode_viol_rate": 0.23333333333333334,
+   "episode_viol_ci": [
+    0.17282533850374257,
+    0.3071592690406407
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.11333333333333333,
+   "collision_ci": [
+    0.07197363837164525,
+    0.17400404256771052
+   ],
+   "coll_step_frac": 0.007044615900704461,
+   "success_rate": 0.48,
+   "success_ci": [
+    0.40154978216379894,
+    0.5594490634020298
+   ],
+   "timeout_rate": 0.52,
+   "mean_task_time_s": 12.364583333333334,
+   "fallback_step_frac": 0.19948563121994856,
+   "mean_min_dist": 1.289884266160391,
+   "mean_goals": 0.48,
+   "mean_radius": 1.7337046820551856
+  },
+  "uni_replay|gauss|0.05": {
+   "n_episodes": 150,
+   "total_windows": 1032,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.03391472868217054,
+   "window_viol_ci": [
+    0.024485291474519867,
+    0.04680128361572559
+   ],
+   "window_viol_rate_all": 0.03391472868217054,
+   "episode_viol_rate": 0.2,
+   "episode_viol_ci": [
+    0.1438399280560674,
+    0.27114275543136385
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.11333333333333333,
+   "collision_ci": [
+    0.07197363837164525,
+    0.17400404256771052
+   ],
+   "coll_step_frac": 0.005086580086580086,
+   "success_rate": 0.3933333333333333,
+   "success_ci": [
+    0.31875856694108035,
+    0.47323527607667293
+   ],
+   "timeout_rate": 0.6066666666666667,
+   "mean_task_time_s": 12.546610169491526,
+   "fallback_step_frac": 0.22727272727272727,
+   "mean_min_dist": 1.3468010307495584,
+   "mean_goals": 0.3933333333333333,
+   "mean_radius": 1.8380019574311284
+  },
+  "uni_replay|uncal|0.05": {
+   "n_episodes": 150,
+   "total_windows": 475,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 1.0,
+   "window_viol_ci": [
+    0.991977305229955,
+    1.0
+   ],
+   "window_viol_rate_all": 1.0,
+   "episode_viol_rate": 1.0,
+   "episode_viol_ci": [
+    0.9750288608542813,
+    1.0
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.5,
+   "collision_ci": [
+    0.4209887046908502,
+    0.5790112953091499
+   ],
+   "coll_step_frac": 0.05132924335378323,
+   "success_rate": 1.0,
+   "success_ci": [
+    0.9750288608542813,
+    1.0
+   ],
+   "timeout_rate": 0.0,
+   "mean_task_time_s": 8.15,
+   "fallback_step_frac": 0.006952965235173824,
+   "mean_min_dist": 0.6395556281754156,
+   "mean_goals": 1.0,
+   "mean_radius": 0.0
+  },
+  "rob_orca|cs|0.05": {
+   "n_episodes": 200,
+   "total_windows": 1204,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.04318936877076412,
+   "window_viol_ci": [
+    0.0330861484087638,
+    0.056198406784566175
+   ],
+   "window_viol_rate_all": 0.04318936877076412,
+   "episode_viol_rate": 0.235,
+   "episode_viol_ci": [
+    0.18157345326946356,
+    0.29841492986724655
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.04,
+   "collision_ci": [
+    0.02040538715065641,
+    0.07693293829419882
+   ],
+   "coll_step_frac": 0.0013479511143062546,
+   "success_rate": 0.62,
+   "success_ci": [
+    0.5510658951919952,
+    0.6844110633876078
+   ],
+   "timeout_rate": 0.38,
+   "mean_task_time_s": 11.862903225806452,
+   "fallback_step_frac": 0.16220345075485262,
+   "mean_min_dist": 1.4539536841049747,
+   "mean_goals": 0.62,
+   "mean_radius": 2.123129395576758
+  },
+  "rob_orca|cs|0.1": {
+   "n_episodes": 200,
+   "total_windows": 956,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.12238493723849372,
+   "window_viol_ci": [
+    0.1031077807411787,
+    0.1446847716966402
+   ],
+   "window_viol_rate_all": 0.12238493723849372,
+   "episode_viol_rate": 0.42,
+   "episode_viol_ci": [
+    0.3537348235017175,
+    0.4892805374452139
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.02,
+   "collision_ci": [
+    0.007804300176394187,
+    0.05028786550519387
+   ],
+   "coll_step_frac": 0.0007516374959733705,
+   "success_rate": 0.845,
+   "success_ci": [
+    0.788391941062744,
+    0.8886043148536146
+   ],
+   "timeout_rate": 0.15500000000000003,
+   "mean_task_time_s": 10.612426035502958,
+   "fallback_step_frac": 0.08676044239235477,
+   "mean_min_dist": 1.2363020044117818,
+   "mean_goals": 0.845,
+   "mean_radius": 1.5860638182737083
+  },
+  "rob_orca|cs_r|0.05": {
+   "n_episodes": 200,
+   "total_windows": 1273,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.030636292223095052,
+   "window_viol_ci": [
+    0.02249100056037362,
+    0.04160590856288803
+   ],
+   "window_viol_rate_all": 0.030636292223095052,
+   "episode_viol_rate": 0.18,
+   "episode_viol_ci": [
+    0.1329455066253411,
+    0.2391159371623843
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.055,
+   "collision_ci": [
+    0.0309850208013701,
+    0.0957879244659355
+   ],
+   "coll_step_frac": 0.002159267576438072,
+   "success_rate": 0.52,
+   "success_ci": [
+    0.45103660055816547,
+    0.5882095592051018
+   ],
+   "timeout_rate": 0.48,
+   "mean_task_time_s": 11.908653846153847,
+   "fallback_step_frac": 0.20918984280532044,
+   "mean_min_dist": 1.552173811621156,
+   "mean_goals": 0.52,
+   "mean_radius": 2.384765173803605
+  },
+  "rob_orca|cs_r|0.1": {
+   "n_episodes": 200,
+   "total_windows": 1019,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.08930323846908735,
+   "window_viol_ci": [
+    0.07330058020346124,
+    0.10839089577874364
+   ],
+   "window_viol_rate_all": 0.08930323846908735,
+   "episode_viol_rate": 0.35,
+   "episode_viol_ci": [
+    0.28728715939415395,
+    0.41836664238134236
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.035,
+   "collision_ci": [
+    0.017055324637357108,
+    0.07047146086668134
+   ],
+   "coll_step_frac": 0.001631820499745028,
+   "success_rate": 0.785,
+   "success_ci": [
+    0.7229757022632792,
+    0.836282074363278
+   ],
+   "timeout_rate": 0.21499999999999997,
+   "mean_task_time_s": 10.888535031847134,
+   "fallback_step_frac": 0.10759816420193778,
+   "mean_min_dist": 1.2785269385138844,
+   "mean_goals": 0.785,
+   "mean_radius": 1.756360278375717
+  },
+  "rob_real|cs|0.05": {
+   "n_episodes": 100,
+   "total_windows": 399,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.045112781954887216,
+   "window_viol_ci": [
+    0.02872350542502335,
+    0.0701778989979558
+   ],
+   "window_viol_rate_all": 0.045112781954887216,
+   "episode_viol_rate": 0.11,
+   "episode_viol_ci": [
+    0.06254131955225124,
+    0.18631463027903025
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.03,
+   "collision_ci": [
+    0.010254338223414811,
+    0.08452078080402699
+   ],
+   "coll_step_frac": 0.0017318159327065809,
+   "success_rate": 0.84,
+   "success_ci": [
+    0.7557955544110558,
+    0.8990479765052628
+   ],
+   "timeout_rate": 0.16000000000000003,
+   "mean_task_time_s": 8.744047619047619,
+   "fallback_step_frac": 0.07125185551707075,
+   "mean_min_dist": 2.5750615836222845,
+   "mean_goals": 0.84,
+   "mean_radius": 1.8118547626086345
+  },
+  "rob_real|cs|0.1": {
+   "n_episodes": 100,
+   "total_windows": 348,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.12931034482758622,
+   "window_viol_ci": [
+    0.09806337684445927,
+    0.1686520996654247
+   ],
+   "window_viol_rate_all": 0.12931034482758622,
+   "episode_viol_rate": 0.2,
+   "episode_viol_ci": [
+    0.1333659225590988,
+    0.28883096192650237
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.03,
+   "collision_ci": [
+    0.010254338223414811,
+    0.08452078080402699
+   ],
+   "coll_step_frac": 0.0018934271030565323,
+   "success_rate": 0.89,
+   "success_ci": [
+    0.8136853697209697,
+    0.9374586804477488
+   ],
+   "timeout_rate": 0.10999999999999999,
+   "mean_task_time_s": 8.252808988764045,
+   "fallback_step_frac": 0.04165539626724371,
+   "mean_min_dist": 2.4344492995540437,
+   "mean_goals": 0.89,
+   "mean_radius": 1.4708209908799608
+  },
+  "rob_real|cs_r|0.05": {
+   "n_episodes": 100,
+   "total_windows": 446,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.01569506726457399,
+   "window_viol_ci": [
+    0.007622936946119699,
+    0.03203902406415591
+   ],
+   "window_viol_rate_all": 0.01569506726457399,
+   "episode_viol_rate": 0.06,
+   "episode_viol_ci": [
+    0.027785745266656618,
+    0.12476968531222504
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.05,
+   "collision_ci": [
+    0.021543361456313564,
+    0.11175196527208817
+   ],
+   "coll_step_frac": 0.003417634996582365,
+   "success_rate": 0.78,
+   "success_ci": [
+    0.689294652849997,
+    0.849988254963442
+   ],
+   "timeout_rate": 0.21999999999999997,
+   "mean_task_time_s": 9.201923076923077,
+   "fallback_step_frac": 0.12371838687628162,
+   "mean_min_dist": 2.704549044860245,
+   "mean_goals": 0.78,
+   "mean_radius": 2.2579954812452807
+  },
+  "rob_real|cs_r|0.1": {
+   "n_episodes": 100,
+   "total_windows": 372,
+   "cert_window_frac": 1.0,
+   "window_viol_rate": 0.07258064516129033,
+   "window_viol_ci": [
+    0.05035787118507914,
+    0.10354100536291344
+   ],
+   "window_viol_rate_all": 0.07258064516129033,
+   "episode_viol_rate": 0.13,
+   "episode_viol_ci": [
+    0.07757093858414264,
+    0.2098052189480988
+   ],
+   "uncert_window_frac": 0.0,
+   "collision_rate": 0.03,
+   "collision_ci": [
+    0.010254338223414811,
+    0.08452078080402699
+   ],
+   "coll_step_frac": 0.0015499870834409714,
+   "success_rate": 0.86,
+   "success_ci": [
+    0.7786263961619276,
+    0.9147373424553509
+   ],
+   "timeout_rate": 0.14,
+   "mean_task_time_s": 8.444767441860465,
+   "fallback_step_frac": 0.05812451562903642,
+   "mean_min_dist": 2.507099487086215,
+   "mean_goals": 0.86,
+   "mean_radius": 1.6803346712349576
+  }
+ },
+ "latency_steps": 1,
+ "act_noise": 0.05,
+ "rho_tot": 12.0
+}

@@ -1,0 +1,1309 @@
+{
+ "generated_utc": "2026-09-09T18:42:44.912477Z",
+ "execution_contract": "legacy_fresh_prediction_recentered_v0",
+ "warning": "Intervals describe archived runs only. They preserve within-episode dependence but five scenes are too few for precise cross-scene inference.",
+ "bootstrap": {
+  "units": [
+   "complete episode/trajectory",
+   "source scene"
+  ],
+  "replicates": 10000,
+  "interval": "percentile 95%",
+  "seed_rule": "crc32('dep|artifact_basename|metric')",
+  "warning": "The scene-cluster interval has only five source clusters."
+ },
+ "scene_order": [
+  "eth",
+  "eth",
+  "eth",
+  "hotel",
+  "hotel",
+  "hotel",
+  "hotel",
+  "hotel",
+  "univ",
+  "zara1",
+  "zara1",
+  "zara2",
+  "zara2",
+  "zara2"
+ ],
+ "conditions": {
+  "long_real_aci_0.05": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 0.9988095238095238,
+     "episode_cluster_bootstrap_ci95": [
+      0.9964285714285714,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.9944444444444445,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      0.9981481481481481,
+      1.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.029797377830750895,
+     "episode_cluster_bootstrap_ci95": [
+      0.013095238095238096,
+      0.04892601431980907
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.009259259259259259,
+      0.06688963210702341
+     ],
+     "leave_one_scene_out_range": [
+      0.019726858877086494,
+      0.04452690166975881
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 1.0309278350515463,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      2.3564064801178204
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      1.7362995116657622
+     ],
+     "leave_one_scene_out_range": [
+      0.4581901489117984,
+      1.3120899718837864
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.02974963181148748,
+     "episode_cluster_bootstrap_ci95": [
+      0.004270986745213549,
+      0.0759941089837997
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.00288659793814433,
+      0.11248568155784651
+     ],
+     "leave_one_scene_out_range": [
+      0.007771609833465504,
+      0.042382588774341354
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 14.285714285714286,
+     "episode_cluster_bootstrap_ci95": [
+      12.0,
+      15.928571428571429
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      10.444444444444445,
+      15.733333333333333
+     ],
+     "leave_one_scene_out_range": [
+      13.555555555555555,
+      15.23076923076923
+     ]
+    }
+   }
+  },
+  "long_real_aci_0.1": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.060714285714285714,
+     "episode_cluster_bootstrap_ci95": [
+      0.02857142857142857,
+      0.1
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.020588235294117647,
+      0.13166666666666665
+     ],
+     "leave_one_scene_out_range": [
+      0.04090909090909091,
+      0.09074074074074075
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 1.4727540500736378,
+     "episode_cluster_bootstrap_ci95": [
+      0.29455081001472755,
+      3.240058910162003
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.3436426116838488,
+      3.865979381443299
+     ],
+     "leave_one_scene_out_range": [
+      0.7930214115781126,
+      1.8744142455482662
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.028276877761413844,
+     "episode_cluster_bootstrap_ci95": [
+      0.001325478645066274,
+      0.0731958762886598
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0017869415807560138,
+      0.11211340206185567
+     ],
+     "leave_one_scene_out_range": [
+      0.007454401268834259,
+      0.041008018327605956
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 14.928571428571429,
+     "episode_cluster_bootstrap_ci95": [
+      12.785714285714286,
+      16.285714285714285
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      11.333333333333334,
+      16.133333333333333
+     ],
+     "leave_one_scene_out_range": [
+      14.333333333333334,
+      15.846153846153847
+     ]
+    }
+   }
+  },
+  "long_real_aci_ep_0.05": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 0.0,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+     ],
+     "leave_one_scene_out_range": [
+      0.0,
+      0.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": null,
+     "episode_cluster_bootstrap_ci95": null,
+     "leave_one_scene_out_range": null
+    },
+    "collision_steps_per_1000": {
+     "estimate": 1.6200294550810015,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      3.3873343151693667
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.47581284694686754,
+      3.5346097201767304
+     ],
+     "leave_one_scene_out_range": [
+      1.1102299762093577,
+      2.0618556701030926
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 0.42857142857142855,
+     "episode_cluster_bootstrap_ci95": [
+      0.21428571428571427,
+      0.7142857142857143
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.1875,
+      0.7
+     ],
+     "leave_one_scene_out_range": [
+      0.36363636363636365,
+      0.5454545454545454
+     ]
+    }
+   }
+  },
+  "long_real_aci_ep_0.1": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.0011904761904761906,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      0.0035714285714285713
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      0.0038461538461538464
+     ],
+     "leave_one_scene_out_range": [
+      0.0,
+      0.001851851851851852
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 2.503681885125184,
+     "episode_cluster_bootstrap_ci95": [
+      0.5891016200294551,
+      5.154639175257732
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.6185567010309279,
+      3.7309769268532156
+     ],
+     "leave_one_scene_out_range": [
+      1.6036655211912945,
+      3.1865042174320526
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.15184094256259204,
+     "episode_cluster_bootstrap_ci95": [
+      0.08895434462444772,
+      0.2515463917525773
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.09226804123711341,
+      0.30463917525773193
+     ],
+     "leave_one_scene_out_range": [
+      0.10832672482157019,
+      0.17525773195876287
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 8.428571428571429,
+     "episode_cluster_bootstrap_ci95": [
+      6.071428571428571,
+      10.714285714285714
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      4.2,
+      10.866666666666667
+     ],
+     "leave_one_scene_out_range": [
+      7.111111111111111,
+      9.545454545454545
+     ]
+    }
+   }
+  },
+  "long_real_auc_0.05": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 0.08333333333333333,
+     "episode_cluster_bootstrap_ci95": [
+      0.08333333333333333,
+      0.08333333333333333
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.08333333333333333,
+      0.08333333333333333
+     ],
+     "leave_one_scene_out_range": [
+      0.08333333333333333,
+      0.08333333333333333
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.014285714285714285,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      0.04285714285714286
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      0.046153846153846156
+     ],
+     "leave_one_scene_out_range": [
+      0.0,
+      0.022222222222222223
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 1.6200294550810015,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      3.3873343151693667
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.3638568829593693,
+      3.865979381443299
+     ],
+     "leave_one_scene_out_range": [
+      1.1102299762093577,
+      2.520045819014891
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.9223858615611193,
+     "episode_cluster_bootstrap_ci95": [
+      0.9117820324005891,
+      0.936818851251841
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.9112316874660878,
+      0.9486827033218785
+     ],
+     "leave_one_scene_out_range": [
+      0.9164155432196669,
+      0.9305841924398626
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 1.1428571428571428,
+     "episode_cluster_bootstrap_ci95": [
+      0.7857142857142857,
+      1.5
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.5833333333333334,
+      1.4705882352941178
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.3333333333333333
+     ]
+    }
+   }
+  },
+  "long_real_auc_0.1": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 0.11785714285714285,
+     "episode_cluster_bootstrap_ci95": [
+      0.11666666666666667,
+      0.12023809523809524
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.11666666666666667,
+      0.12222222222222222
+     ],
+     "leave_one_scene_out_range": [
+      0.11666666666666667,
+      0.11851851851851852
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.010101010101010102,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      0.030612244897959183
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      0.03260869565217391
+     ],
+     "leave_one_scene_out_range": [
+      0.0,
+      0.015625
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 1.7673048600883652,
+     "episode_cluster_bootstrap_ci95": [
+      0.4418262150220913,
+      3.3873343151693667
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.3638568829593693,
+      3.936269915651359
+     ],
+     "leave_one_scene_out_range": [
+      1.26883425852498,
+      2.7491408934707904
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.8865979381443299,
+     "episode_cluster_bootstrap_ci95": [
+      0.8783505154639175,
+      0.8985272459499264
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.8782474226804123,
+      0.9077319587628866
+     ],
+     "leave_one_scene_out_range": [
+      0.88152260111023,
+      0.8925544100801833
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 1.7857142857142858,
+     "episode_cluster_bootstrap_ci95": [
+      1.2857142857142858,
+      2.2142857142857144
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.2727272727272727,
+      2.1
+     ],
+     "leave_one_scene_out_range": [
+      1.6666666666666667,
+      1.9230769230769231
+     ]
+    }
+   }
+  },
+  "long_real_aucb_0.05": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 0.4869047619047619,
+     "episode_cluster_bootstrap_ci95": [
+      0.4773809523809524,
+      0.4976190476190476
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.47368421052631576,
+      0.5074074074074074
+     ],
+     "leave_one_scene_out_range": [
+      0.48333333333333334,
+      0.4981481481481482
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.0,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+     ],
+     "leave_one_scene_out_range": [
+      0.0,
+      0.0
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 0.5891016200294551,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      1.4727540500736378
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      1.0309278350515463
+     ],
+     "leave_one_scene_out_range": [
+      0.37488284910965325,
+      0.7497656982193065
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.5815905743740796,
+     "episode_cluster_bootstrap_ci95": [
+      0.5503681885125185,
+      0.6248932253313696
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.5495451788963008,
+      0.6603092783505154
+     ],
+     "leave_one_scene_out_range": [
+      0.5639968279143537,
+      0.5930646672914714
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 4.214285714285714,
+     "episode_cluster_bootstrap_ci95": [
+      3.2142857142857144,
+      5.142857142857143
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      2.7,
+      5.230769230769231
+     ],
+     "leave_one_scene_out_range": [
+      3.727272727272727,
+      4.545454545454546
+     ]
+    }
+   }
+  },
+  "long_real_aucb_0.1": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 0.7202380952380952,
+     "episode_cluster_bootstrap_ci95": [
+      0.7107142857142857,
+      0.7309523809523809
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.7071428571428572,
+      0.7407407407407407
+     ],
+     "leave_one_scene_out_range": [
+      0.7166666666666667,
+      0.7314814814814815
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.0,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+     ],
+     "leave_one_scene_out_range": [
+      0.0,
+      0.0
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 0.5891016200294551,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      1.4727540500736378
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      1.499531396438613
+     ],
+     "leave_one_scene_out_range": [
+      0.3436426116838488,
+      0.9163802978235968
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.38556701030927837,
+     "episode_cluster_bootstrap_ci95": [
+      0.34418262150220913,
+      0.43726435935198815
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.3487972508591065,
+      0.45979381443298967
+     ],
+     "leave_one_scene_out_range": [
+      0.3647898493259318,
+      0.4022492970946579
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 5.714285714285714,
+     "episode_cluster_bootstrap_ci95": [
+      4.214285714285714,
+      7.142857142857143
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      3.2,
+      7.238095238095238
+     ],
+     "leave_one_scene_out_range": [
+      5.0,
+      6.363636363636363
+     ]
+    }
+   }
+  },
+  "long_real_cs_0.05": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.025,
+     "episode_cluster_bootstrap_ci95": [
+      0.004761904761904762,
+      0.05238095238095238
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.000980392156862745,
+      0.07575757575757576
+     ],
+     "leave_one_scene_out_range": [
+      0.014102564102564103,
+      0.03888888888888889
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 1.0309278350515463,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      2.2091310751104567
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      1.7525773195876289
+     ],
+     "leave_one_scene_out_range": [
+      0.4581901489117984,
+      1.3120899718837864
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.025478645066273932,
+     "episode_cluster_bootstrap_ci95": [
+      0.008689248895434463,
+      0.049046391752577266
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.004948453608247422,
+      0.06597938144329897
+     ],
+     "leave_one_scene_out_range": [
+      0.01570182394924663,
+      0.03276059564719359
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 12.928571428571429,
+     "episode_cluster_bootstrap_ci95": [
+      10.571428571428571,
+      14.785714285714286
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      9.0,
+      14.38888888888889
+     ],
+     "leave_one_scene_out_range": [
+      11.88888888888889,
+      13.846153846153847
+     ]
+    }
+   }
+  },
+  "long_real_cs_0.1": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.07142857142857142,
+     "episode_cluster_bootstrap_ci95": [
+      0.017857142857142856,
+      0.14523809523809525
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.011111111111111112,
+      0.20185185185185187
+     ],
+     "leave_one_scene_out_range": [
+      0.04230769230769231,
+      0.10925925925925926
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 0.8836524300441826,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      1.914580265095729
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      1.9533369506239826
+     ],
+     "leave_one_scene_out_range": [
+      0.0,
+      1.1246485473289598
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.020618556701030927,
+     "episode_cluster_bootstrap_ci95": [
+      0.004270986745213549,
+      0.04771723122238586
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.004810996563573883,
+      0.06765249140893369
+     ],
+     "leave_one_scene_out_range": [
+      0.00808881839809675,
+      0.026804123711340205
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 14.714285714285714,
+     "episode_cluster_bootstrap_ci95": [
+      12.785714285714286,
+      16.071428571428573
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      11.333333333333334,
+      16.066666666666666
+     ],
+     "leave_one_scene_out_range": [
+      14.11111111111111,
+      15.538461538461538
+     ]
+    }
+   }
+  },
+  "long_real_gauss_0.05": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.014285714285714285,
+     "episode_cluster_bootstrap_ci95": [
+      0.002380952380952381,
+      0.030952380952380953
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.000980392156862745,
+      0.04285714285714286
+     ],
+     "leave_one_scene_out_range": [
+      0.007692307692307693,
+      0.022222222222222223
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 1.0309278350515463,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      2.2091310751104567
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      1.7525773195876289
+     ],
+     "leave_one_scene_out_range": [
+      0.4581901489117984,
+      1.3120899718837864
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.03652430044182622,
+     "episode_cluster_bootstrap_ci95": [
+      0.012223858615611193,
+      0.07378865979381438
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.010584192439862543,
+      0.09667812142038947
+     ],
+     "leave_one_scene_out_range": [
+      0.020618556701030927,
+      0.0457357075913777
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 12.285714285714286,
+     "episode_cluster_bootstrap_ci95": [
+      10.071428571428571,
+      14.142857142857142
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      9.0,
+      13.38888888888889
+     ],
+     "leave_one_scene_out_range": [
+      11.666666666666666,
+      13.076923076923077
+     ]
+    }
+   }
+  },
+  "long_real_gauss_0.1": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.01904761904761905,
+     "episode_cluster_bootstrap_ci95": [
+      0.0035714285714285713,
+      0.04285714285714286
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.000980392156862745,
+      0.058333333333333334
+     ],
+     "leave_one_scene_out_range": [
+      0.008974358974358974,
+      0.02962962962962963
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 2.503681885125184,
+     "episode_cluster_bootstrap_ci95": [
+      1.1782032400589102,
+      3.829160530191458
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.8836524300441826,
+      3.865979381443299
+     ],
+     "leave_one_scene_out_range": [
+      2.0618556701030926,
+      3.1865042174320526
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.0438880706921944,
+     "episode_cluster_bootstrap_ci95": [
+      0.009720176730486009,
+      0.1013291605301914
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.008109965635738832,
+      0.14922680412371134
+     ],
+     "leave_one_scene_out_range": [
+      0.017287866772402856,
+      0.06025200458190149
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 12.357142857142858,
+     "episode_cluster_bootstrap_ci95": [
+      10.357142857142858,
+      13.928571428571429
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      8.875,
+      13.6
+     ],
+     "leave_one_scene_out_range": [
+      11.444444444444445,
+      13.153846153846153
+     ]
+    }
+   }
+  },
+  "long_real_uncal_0.05": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 17.820324005891017,
+     "episode_cluster_bootstrap_ci95": [
+      11.925625920471285,
+      25.184094256259204
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      12.076583210603829,
+      28.09278350515464
+     ],
+     "leave_one_scene_out_range": [
+      15.06740681998414,
+      19.93127147766323
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.00471281296023564,
+     "episode_cluster_bootstrap_ci95": [
+      0.0017673048600883653,
+      0.007952871870397643
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.00018744142455482662,
+      0.007640994542146755
+     ],
+     "leave_one_scene_out_range": [
+      0.0029782359679266894,
+      0.005998125585754452
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 17.285714285714285,
+     "episode_cluster_bootstrap_ci95": [
+      16.857142857142858,
+      17.642857142857142
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      16.625,
+      17.642857142857142
+     ],
+     "leave_one_scene_out_range": [
+      17.166666666666668,
+      17.46153846153846
+     ]
+    }
+   }
+  },
+  "long_real_uncal_0.1": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 17.820324005891017,
+     "episode_cluster_bootstrap_ci95": [
+      11.782032400589102,
+      25.331369661266567
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      12.371134020618557,
+      29.324169530355096
+     ],
+     "leave_one_scene_out_range": [
+      15.06740681998414,
+      19.93127147766323
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.00471281296023564,
+     "episode_cluster_bootstrap_ci95": [
+      0.001914580265095729,
+      0.008100147275405008
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.00018744142455482662,
+      0.007640994542146755
+     ],
+     "leave_one_scene_out_range": [
+      0.0029782359679266894,
+      0.005998125585754452
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 17.285714285714285,
+     "episode_cluster_bootstrap_ci95": [
+      16.857142857142858,
+      17.642857142857142
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      16.625,
+      17.642857142857142
+     ],
+     "leave_one_scene_out_range": [
+      17.166666666666668,
+      17.46153846153846
+     ]
+    }
+   }
+  },
+  "long_real_union_0.05": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 0.0,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+     ],
+     "leave_one_scene_out_range": [
+      0.0,
+      0.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": null,
+     "episode_cluster_bootstrap_ci95": null,
+     "leave_one_scene_out_range": null
+    },
+    "collision_steps_per_1000": {
+     "estimate": 1.6200294550810015,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      3.3873343151693667
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.47581284694686754,
+      3.4388807069219083
+     ],
+     "leave_one_scene_out_range": [
+      1.1102299762093577,
+      2.0618556701030926
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 0.42857142857142855,
+     "episode_cluster_bootstrap_ci95": [
+      0.21428571428571427,
+      0.7142857142857143
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.1875,
+      0.7
+     ],
+     "leave_one_scene_out_range": [
+      0.36363636363636365,
+      0.5454545454545454
+     ]
+    }
+   }
+  },
+  "long_real_union_0.1": {
+   "n_episode_clusters": 14,
+   "n_scene_clusters": 5,
+   "metrics": {
+    "certified_window_fraction": {
+     "estimate": 1.0,
+     "episode_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      1.0,
+      1.0
+     ],
+     "leave_one_scene_out_range": [
+      1.0,
+      1.0
+     ]
+    },
+    "certified_window_violation_rate": {
+     "estimate": 0.0011904761904761906,
+     "episode_cluster_bootstrap_ci95": [
+      0.0,
+      0.0035714285714285713
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.0,
+      0.003703703703703704
+     ],
+     "leave_one_scene_out_range": [
+      0.0,
+      0.001851851851851852
+     ]
+    },
+    "collision_steps_per_1000": {
+     "estimate": 2.503681885125184,
+     "episode_cluster_bootstrap_ci95": [
+      0.5891016200294551,
+      5.007363770250368
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.6185567010309279,
+      3.689636462289745
+     ],
+     "leave_one_scene_out_range": [
+      1.6036655211912945,
+      3.1865042174320526
+     ]
+    },
+    "fallback_step_fraction": {
+     "estimate": 0.15184094256259204,
+     "episode_cluster_bootstrap_ci95": [
+      0.08969072164948454,
+      0.24904270986745214
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      0.08969072164948454,
+      0.30463917525773193
+     ],
+     "leave_one_scene_out_range": [
+      0.10832672482157019,
+      0.17525773195876287
+     ]
+    },
+    "goals_per_episode": {
+     "estimate": 8.428571428571429,
+     "episode_cluster_bootstrap_ci95": [
+      6.142857142857143,
+      10.642857142857142
+     ],
+     "scene_cluster_bootstrap_ci95": [
+      4.2,
+      10.866666666666667
+     ],
+     "leave_one_scene_out_range": [
+      7.111111111111111,
+      9.545454545454545
+     ]
+    }
+   }
+  }
+ }
+}
